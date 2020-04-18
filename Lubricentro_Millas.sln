@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{AA5F85BB-71D8-4362-9972-7879A16180B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{F701028A-DE99-4CB1-B48F-EE510E9BEE02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PL", "PL", "{94AC84D7-EDAF-4368-ADA4-3B460FAE7720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lubricentro_Millas", "Lubricentro_Millas\Lubricentro_Millas.csproj", "{0AD417F0-38E0-4CA2-B3B1-3DFF9B6D720D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Millas_DAL", "Millas_DAL\Millas_DAL.csproj", "{AE822998-D768-4FDB-A582-ADBA1E743B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Millas_BLL", "Millas_BLL\Millas_BLL.csproj", "{D88316B0-6B99-45B4-A621-FF69248A4AD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AD417F0-38E0-4CA2-B3B1-3DFF9B6D720D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD417F0-38E0-4CA2-B3B1-3DFF9B6D720D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD417F0-38E0-4CA2-B3B1-3DFF9B6D720D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD417F0-38E0-4CA2-B3B1-3DFF9B6D720D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE822998-D768-4FDB-A582-ADBA1E743B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE822998-D768-4FDB-A582-ADBA1E743B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE822998-D768-4FDB-A582-ADBA1E743B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE822998-D768-4FDB-A582-ADBA1E743B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88316B0-6B99-45B4-A621-FF69248A4AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88316B0-6B99-45B4-A621-FF69248A4AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88316B0-6B99-45B4-A621-FF69248A4AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88316B0-6B99-45B4-A621-FF69248A4AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AD417F0-38E0-4CA2-B3B1-3DFF9B6D720D} = {94AC84D7-EDAF-4368-ADA4-3B460FAE7720}
+		{AE822998-D768-4FDB-A582-ADBA1E743B7D} = {F701028A-DE99-4CB1-B48F-EE510E9BEE02}
+		{D88316B0-6B99-45B4-A621-FF69248A4AD6} = {AA5F85BB-71D8-4362-9972-7879A16180B7}
+	EndGlobalSection
+EndGlobal

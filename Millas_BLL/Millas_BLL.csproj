@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D88316B0-6B99-45B4-A621-FF69248A4AD6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Millas_BLL</RootNamespace>
+    <AssemblyName>Millas_BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BD\cls_BD_BLL.cs" />
+    <Compile Include="Catalogos\cls_Capacitacion_BLL.cs" />
+    <Compile Include="Catalogos\cls_Citas_BLL.cs" />
+    <Compile Include="Catalogos\cls_Clientes_BLL.cs" />
+    <Compile Include="Catalogos\cls_Combustible_BLL.cs" />
+    <Compile Include="Catalogos\cls_EstadosCitas_BLL.cs" />
+    <Compile Include="Catalogos\cls_Facturas_BLL.cs" />
+    <Compile Include="Catalogos\cls_InsumosPorServicio_BLL.cs" />
+    <Compile Include="Catalogos\cls_Insumos_BLL.cs" />
+    <Compile Include="Catalogos\cls_Inventario_BLL.cs" />
+    <Compile Include="Catalogos\cls_LineasDeTrabajo_BLL.cs" />
+    <Compile Include="Catalogos\cls_Login_BLL.cs" />
+    <Compile Include="Catalogos\cls_MantenimientoInventarios_BLL.cs" />
+    <Compile Include="Catalogos\cls_MantenimientoMateriales_BLL.cs" />
+    <Compile Include="Catalogos\cls_Marcas_BLL.cs" />
+    <Compile Include="Catalogos\cls_ModelosVehi_BLL.cs" />
+    <Compile Include="Catalogos\cls_OrdenDeServicio_BLL.cs" />
+    <Compile Include="Catalogos\cls_Proveedor_BLL.cs" />
+    <Compile Include="Catalogos\cls_PuestoTrabajo_BLL.cs" />
+    <Compile Include="Catalogos\cls_PuntoReorden_BLL.cs" />
+    <Compile Include="Catalogos\cls_ReciboProveedores_BLL.cs" />
+    <Compile Include="Catalogos\cls_Roles_BLL.cs" />
+    <Compile Include="Catalogos\cls_Servicios_BLL.cs" />
+    <Compile Include="Catalogos\cls_TipoIdentificacion_BLL.cs" />
+    <Compile Include="Catalogos\cls_TiposVehiculos_BLL.cs" />
+    <Compile Include="Catalogos\cls_UnidadMedida_BLL.cs" />
+    <Compile Include="Catalogos\cls_Usuarios_BLL.cs" />
+    <Compile Include="Catalogos\cls_VehiPorClientes_BLL.cs" />
+    <Compile Include="Generales\cls_Generales_BLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Millas_DAL\Millas_DAL.csproj">
+      <Project>{ae822998-d768-4fdb-a582-adba1e743b7d}</Project>
+      <Name>Millas_DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,597 @@
+c:\users\osval\documents\visual studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe.config
+c:\users\osval\documents\visual studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe
+c:\users\osval\documents\visual studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.pdb
+c:\users\osval\documents\visual studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csprojResolveAssemblyReference.cache
+c:\users\osval\documents\visual studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_loggin.resources
+c:\users\osval\documents\visual studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Properties.Resources.resources
+c:\users\osval\documents\visual studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csproj.GenerateResource.Cache
+c:\users\osval\documents\visual studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.exe
+c:\users\osval\documents\visual studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.pdb
+c:\users\osval\documents\visual studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_principal.resources
+c:\users\osval\documents\visual studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_citas.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_clientes.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_recupera_contrase.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_cambio_contrase.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_crear_cita.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_modifica_cita.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_registrar_cliente.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_mecanico.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modelos.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_modelos.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_marcas.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_marcas.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_taman_motor.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_motor.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_tipo_Vehiculo.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_tipVehic.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_cant_aceite.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_unid_medida.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_cantidad_aceite.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_unid_medida.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_insumos.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_servicios.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_insumos.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_servicios.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_estados.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_estados.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibo_proveedor.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_invent_sistema.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_conteo_ciclico.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_ajuste_inv.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_inventario.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_punto_reorden.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_inventario.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_factura.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_generar_fact.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_emple.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_nonima.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modifica_empleado.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_horas_extra.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reclutamiento.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_capacitacion.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_capacitacion.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reporte_capacita.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_proveedores.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_proveedor.resources
+C:\Users\osval\Documents\Visual Studio 2015\Projects\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_horario.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe.config
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.exe
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.pdb
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.pdb
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csprojResolveAssemblyReference.cache
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_capacitacion.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_emple.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_proveedor.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_ajuste_inv.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_cant_aceite.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_capacitacion.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_estados.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_horas_extra.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_insumos.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_marcas.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modelos.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modifica_empleado.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reclutamiento.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_recupera_contrase.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reporte_capacita.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_servicios.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_taman_motor.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_tipo_Vehiculo.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_unid_medida.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_cambio_contrase.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_conteo_ciclico.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_crear_cita.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_factura.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_generar_fact.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_horario.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_invent_sistema.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_modifica_cita.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_inventario.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_mecanico.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_punto_reorden.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibo_proveedor.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_registrar_cliente.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_cantidad_aceite.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_estados.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_insumos.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_inventario.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_citas.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_clientes.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_marcas.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_modelos.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_motor.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_nonima.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_proveedores.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_tipVehic.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_servicios.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_unid_medida.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_loggin.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_principal.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Properties.Resources.resources
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csproj.GenerateResource.Cache
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Millas_BLL.dll
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Millas_DAL.dll
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Millas_BLL.pdb
+C:\Users\erick\Downloads\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Millas_DAL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe.config
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.exe
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Millas_BLL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Millas_DAL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Millas_BLL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\bin\Debug\Millas_DAL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csprojResolveAssemblyReference.cache
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_capacitacion.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_emple.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_proveedor.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_ajuste_inv.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_cant_aceite.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_capacitacion.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_estados.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_horas_extra.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_insumos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_marcas.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modelos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modifica_empleado.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reclutamiento.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_recupera_contrase.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reporte_capacita.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_servicios.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_taman_motor.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_tipo_Vehiculo.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_unid_medida.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_cambio_contrase.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_conteo_ciclico.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_crear_cita.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_factura.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_generar_fact.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_horario.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_invent_sistema.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_modifica_cita.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_inventario.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_mecanico.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_punto_reorden.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibo_proveedor.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_registrar_cliente.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_cantidad_aceite.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_estados.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_insumos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_inventario.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_citas.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_clientes.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_marcas.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_modelos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_motor.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_nonima.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_proveedores.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_tipVehic.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_servicios.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_unid_medida.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_loggin.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_principal.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Properties.Resources.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csproj.GenerateResource.Cache
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_roles.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_Roles.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe.config
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.exe
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Millas_BLL.dll
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Millas_DAL.dll
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Millas_BLL.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Millas_DAL.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csprojResolveAssemblyReference.cache
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_capacitacion.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_emple.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_proveedor.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_ajuste_inv.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_cant_aceite.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_capacitacion.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_estados.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_horas_extra.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_insumos.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_marcas.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modelos.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modifica_empleado.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reclutamiento.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_recupera_contrase.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reporte_capacita.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_roles.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_servicios.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_taman_motor.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_tipo_Vehiculo.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_unid_medida.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_cambio_contrase.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_conteo_ciclico.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_crear_cita.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_factura.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_generar_fact.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_horario.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_invent_sistema.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_modifica_cita.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_inventario.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_mecanico.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_punto_reorden.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibo_proveedor.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_registrar_cliente.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_cantidad_aceite.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_estados.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_insumos.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_inventario.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_citas.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_clientes.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_marcas.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_modelos.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_motor.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_nonima.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_proveedores.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_Roles.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_tipVehic.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_servicios.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_unid_medida.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_loggin.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_principal.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Properties.Resources.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csproj.GenerateResource.Cache
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe.config
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.exe
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Millas_BLL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Millas_DAL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Millas_BLL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Millas_DAL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csprojResolveAssemblyReference.cache
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_capacitacion.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_emple.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_proveedor.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_ajuste_inv.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_cant_aceite.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_capacitacion.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_estados.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_horas_extra.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_insumos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_marcas.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modelos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modifica_empleado.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reclutamiento.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_recupera_contrase.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reporte_capacita.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_roles.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_servicios.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_taman_motor.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_tipo_Vehiculo.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_unid_medida.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_cambio_contrase.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_conteo_ciclico.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_crear_cita.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_factura.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_generar_fact.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_horario.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_invent_sistema.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_modifica_cita.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_inventario.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_mecanico.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_punto_reorden.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibo_proveedor.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_registrar_cliente.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_cantidad_aceite.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_estados.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_insumos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_inventario.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_citas.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_clientes.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_marcas.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_modelos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_motor.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_nonima.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_proveedores.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_Roles.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_tipVehic.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_servicios.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_unid_medida.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_loggin.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_principal.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Properties.Resources.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csproj.GenerateResource.Cache
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe.config
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.exe
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.pdb
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.pdb
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Millas_BLL.dll
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Millas_DAL.dll
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Millas_BLL.pdb
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Millas_DAL.pdb
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csprojResolveAssemblyReference.cache
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_capacitacion.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_emple.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_proveedor.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_ajuste_inv.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_cant_aceite.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_capacitacion.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_estados.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_horas_extra.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_insumos.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_marcas.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modelos.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modifica_empleado.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reclutamiento.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_recupera_contrase.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reporte_capacita.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_roles.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_servicios.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_taman_motor.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_tipo_Vehiculo.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_unid_medida.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_cambio_contrase.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_conteo_ciclico.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_crear_cita.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_factura.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_generar_fact.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_horario.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_invent_sistema.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_modifica_cita.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_inventario.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_mecanico.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_punto_reorden.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibo_proveedor.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_registrar_cliente.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_cantidad_aceite.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_estados.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_insumos.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_inventario.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_citas.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_clientes.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_marcas.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_modelos.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_motor.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_nonima.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_proveedores.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_Roles.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_tipVehic.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_servicios.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_unid_medida.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_loggin.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_principal.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Properties.Resources.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csproj.GenerateResource.Cache
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibir_insumo.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_puesto.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_puestos.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_hist_emplea.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_tipIdentif.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_tipos_ident.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_rol.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_combust.resources
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_combustibles.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_combust.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_puesto.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_rol.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_tipIdentif.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_puestos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibir_insumo.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_combustibles.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_hist_emplea.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_tipos_ident.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe.config
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.exe
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Millas_BLL.dll
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Millas_DAL.dll
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Millas_BLL.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\bin\Debug\Millas_DAL.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csprojResolveAssemblyReference.cache
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_capacitacion.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_combust.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_emple.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_proveedor.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_puesto.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_rol.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_tipIdentif.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_ajuste_inv.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_cant_aceite.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_capacitacion.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_estados.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_horas_extra.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_insumos.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_marcas.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modelos.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modifica_empleado.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_puestos.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reclutamiento.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_recupera_contrase.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reporte_capacita.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_roles.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_servicios.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_taman_motor.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_tipo_Vehiculo.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_unid_medida.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_cambio_contrase.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_conteo_ciclico.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_crear_cita.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_factura.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_generar_fact.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_horario.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_invent_sistema.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_modifica_cita.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_inventario.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_mecanico.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_punto_reorden.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibir_insumo.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibo_proveedor.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_registrar_cliente.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_cantidad_aceite.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_combustibles.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_estados.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_hist_emplea.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_insumos.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_inventario.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_citas.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_clientes.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_marcas.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_modelos.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_motor.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_nonima.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_proveedores.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_Roles.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_tipVehic.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_servicios.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_tipos_ident.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_unid_medida.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_loggin.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_principal.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Properties.Resources.resources
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csproj.GenerateResource.Cache
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe.config
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.exe
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Millas_BLL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Millas_DAL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Millas_BLL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Millas_DAL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csprojResolveAssemblyReference.cache
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_capacitacion.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_combust.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_emple.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_proveedor.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_puesto.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_rol.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_tipIdentif.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_ajuste_inv.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_cant_aceite.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_capacitacion.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_estados.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_horas_extra.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_insumos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_marcas.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modelos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modifica_empleado.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_puestos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reclutamiento.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_recupera_contrase.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reporte_capacita.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_roles.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_servicios.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_taman_motor.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_tipo_Vehiculo.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_unid_medida.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_cambio_contrase.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_conteo_ciclico.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_crear_cita.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_factura.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_generar_fact.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_horario.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_invent_sistema.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_modifica_cita.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_inventario.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_mecanico.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_punto_reorden.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibir_insumo.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibo_proveedor.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_registrar_cliente.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_cantidad_aceite.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_combustibles.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_estados.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_hist_emplea.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_insumos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_inventario.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_citas.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_clientes.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_marcas.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_modelos.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_motor.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_nonima.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_proveedores.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_Roles.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_tipVehic.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_servicios.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_tipos_ident.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_unid_medida.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_loggin.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_principal.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Properties.Resources.resources
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csproj.GenerateResource.Cache
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe.config
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.exe
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Lubricentro_Millas.pdb
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Millas_BLL.dll
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Millas_DAL.dll
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Millas_BLL.pdb
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\bin\Debug\Millas_DAL.pdb
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csprojAssemblyReference.cache
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_capacitacion.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_combust.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_emple.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_proveedor.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_puesto.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_rol.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_agrega_tipIdentif.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_ajuste_inv.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_cant_aceite.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_capacitacion.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_estados.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_horas_extra.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_insumos.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_marcas.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modelos.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_modifica_empleado.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_puestos.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reclutamiento.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_recupera_contrase.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_reporte_capacita.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_roles.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_servicios.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_taman_motor.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_tipo_Vehiculo.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Admin.frm_unid_medida.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_cambio_contrase.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_conteo_ciclico.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_crear_cita.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_factura.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_generar_fact.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_horario.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_invent_sistema.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_modifica_cita.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_inventario.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_orden_mecanico.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_punto_reorden.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibir_insumo.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_recibo_proveedor.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario.frm_registrar_cliente.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_cantidad_aceite.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_combustibles.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_estados.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_hist_emplea.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_insumos.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_inventario.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_citas.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_clientes.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_marcas.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_modelos.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_motor.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_nonima.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_proveedores.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_Roles.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_listar_tipVehic.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_servicios.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_tipos_ident.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Catalogos.Listar.frm_unid_medida.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_loggin.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Pantallas.Principal.frm_principal.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.Properties.Resources.resources
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csproj.GenerateResource.cache
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csproj.CoreCompileInputs.cache
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.csproj.CopyComplete
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.exe
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Lubricentro_Millas\obj\Debug\Lubricentro_Millas.pdb

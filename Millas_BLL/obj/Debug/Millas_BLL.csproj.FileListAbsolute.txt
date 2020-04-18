@@ -1,0 +1,58 @@
+C:\Users\erick\Downloads\Lubricentro_Millas\Millas_BLL\bin\Debug\Millas_BLL.dll
+C:\Users\erick\Downloads\Lubricentro_Millas\Millas_BLL\bin\Debug\Millas_BLL.pdb
+C:\Users\erick\Downloads\Lubricentro_Millas\Millas_BLL\obj\Debug\Millas_BLL.csprojResolveAssemblyReference.cache
+C:\Users\erick\Downloads\Lubricentro_Millas\Millas_BLL\obj\Debug\Millas_BLL.dll
+C:\Users\erick\Downloads\Lubricentro_Millas\Millas_BLL\obj\Debug\Millas_BLL.pdb
+C:\Users\erick\Downloads\Lubricentro_Millas\Millas_BLL\bin\Debug\Millas_DAL.dll
+C:\Users\erick\Downloads\Lubricentro_Millas\Millas_BLL\bin\Debug\Millas_DAL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Millas_BLL\obj\Debug\Millas_BLL.csprojResolveAssemblyReference.cache
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Millas_BLL\obj\Debug\Millas_BLL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Millas_BLL\obj\Debug\Millas_BLL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Millas_BLL\bin\Debug\Millas_BLL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Millas_BLL\bin\Debug\Millas_BLL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Millas_BLL\bin\Debug\Millas_DAL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas\Millas_BLL\bin\Debug\Millas_DAL.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Millas_BLL\bin\Debug\Millas_BLL.dll
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Millas_BLL\bin\Debug\Millas_BLL.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Millas_BLL\bin\Debug\Millas_DAL.dll
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Millas_BLL\bin\Debug\Millas_DAL.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.csprojResolveAssemblyReference.cache
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.dll
+C:\Users\loony\Desktop\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Millas_BLL\bin\Debug\Millas_BLL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Millas_BLL\bin\Debug\Millas_BLL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Millas_BLL\bin\Debug\Millas_DAL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Millas_BLL\bin\Debug\Millas_DAL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Millas_BLL\obj\Debug\Millas_BLL.csprojResolveAssemblyReference.cache
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Millas_BLL\obj\Debug\Millas_BLL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1 - copia\Millas_BLL\obj\Debug\Millas_BLL.pdb
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Millas_BLL\bin\Debug\Millas_BLL.dll
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Millas_BLL\bin\Debug\Millas_BLL.pdb
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Millas_BLL\bin\Debug\Millas_DAL.dll
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Millas_BLL\bin\Debug\Millas_DAL.pdb
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Millas_BLL\obj\Debug\Millas_BLL.csprojResolveAssemblyReference.cache
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Millas_BLL\obj\Debug\Millas_BLL.dll
+C:\Users\osval\Desktop\Proyecto Disen_BasesII\Lubricentro_Millas2.1 - copia\Lubricentro_Millas2.1 - copia\Millas_BLL\obj\Debug\Millas_BLL.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Millas_BLL\bin\Debug\Millas_BLL.dll
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Millas_BLL\bin\Debug\Millas_BLL.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Millas_BLL\bin\Debug\Millas_DAL.dll
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Millas_BLL\bin\Debug\Millas_DAL.pdb
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Millas_BLL\obj\Debug\Millas_BLL.csprojResolveAssemblyReference.cache
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Millas_BLL\obj\Debug\Millas_BLL.dll
+C:\Users\loony\Desktop\Lubricentro_Millas2.1 - copia\Millas_BLL\obj\Debug\Millas_BLL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.csprojResolveAssemblyReference.cache
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Millas_BLL\bin\Debug\Millas_BLL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Millas_BLL\bin\Debug\Millas_BLL.pdb
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Millas_BLL\bin\Debug\Millas_DAL.dll
+C:\Users\erick\Desktop\Taller Millas\Lubricentro_Millas2.1\Millas_BLL\bin\Debug\Millas_DAL.pdb
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\bin\Debug\Millas_BLL.dll
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\bin\Debug\Millas_BLL.pdb
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\bin\Debug\Millas_DAL.dll
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\bin\Debug\Millas_DAL.pdb
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.csprojAssemblyReference.cache
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.csproj.CoreCompileInputs.cache
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.csproj.CopyComplete
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.dll
+D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.pdb

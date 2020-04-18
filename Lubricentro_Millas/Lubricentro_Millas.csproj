@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0AD417F0-38E0-4CA2-B3B1-3DFF9B6D720D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lubricentro_Millas</RootNamespace>
+    <AssemblyName>Lubricentro_Millas</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_capacitacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_capacitacion.Designer.cs">
+      <DependentUpon>frm_agrega_capacitacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_combust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_combust.Designer.cs">
+      <DependentUpon>frm_agrega_combust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_emple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_emple.Designer.cs">
+      <DependentUpon>frm_agrega_emple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_proveedor.Designer.cs">
+      <DependentUpon>frm_agrega_proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_puesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_puesto.Designer.cs">
+      <DependentUpon>frm_agrega_puesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_rol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_rol.Designer.cs">
+      <DependentUpon>frm_agrega_rol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_tipIdentif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_tipIdentif.Designer.cs">
+      <DependentUpon>frm_agrega_tipIdentif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_ajuste_inv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_ajuste_inv.Designer.cs">
+      <DependentUpon>frm_ajuste_inv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_cant_aceite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_cant_aceite.Designer.cs">
+      <DependentUpon>frm_cant_aceite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_capacitacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_capacitacion.Designer.cs">
+      <DependentUpon>frm_capacitacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_estados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_estados.Designer.cs">
+      <DependentUpon>frm_estados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_hist_empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_hist_empleado.Designer.cs">
+      <DependentUpon>frm_hist_empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_horas_extra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_horas_extra.Designer.cs">
+      <DependentUpon>frm_horas_extra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_insumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_insumos.Designer.cs">
+      <DependentUpon>frm_insumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_marcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_marcas.Designer.cs">
+      <DependentUpon>frm_marcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_modelos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_modelos.Designer.cs">
+      <DependentUpon>frm_modelos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_modifica_empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_modifica_empleado.Designer.cs">
+      <DependentUpon>frm_modifica_empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_puestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_puestos.Designer.cs">
+      <DependentUpon>frm_puestos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_reclutamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_reclutamiento.Designer.cs">
+      <DependentUpon>frm_reclutamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_recupera_contrase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_recupera_contrase.Designer.cs">
+      <DependentUpon>frm_recupera_contrase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_reporte_capacita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_reporte_capacita.Designer.cs">
+      <DependentUpon>frm_reporte_capacita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_roles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_roles.Designer.cs">
+      <DependentUpon>frm_roles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_servicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_servicios.Designer.cs">
+      <DependentUpon>frm_servicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_taman_motor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_taman_motor.Designer.cs">
+      <DependentUpon>frm_taman_motor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_tipo_Vehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_tipo_Vehiculo.Designer.cs">
+      <DependentUpon>frm_tipo_Vehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_unid_medida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Admin\frm_unid_medida.Designer.cs">
+      <DependentUpon>frm_unid_medida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_cambio_contrase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_cambio_contrase.Designer.cs">
+      <DependentUpon>frm_cambio_contrase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_conteo_ciclico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_conteo_ciclico.Designer.cs">
+      <DependentUpon>frm_conteo_ciclico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_crear_cita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_crear_cita.Designer.cs">
+      <DependentUpon>frm_crear_cita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_factura.Designer.cs">
+      <DependentUpon>frm_factura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_generar_fact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_generar_fact.Designer.cs">
+      <DependentUpon>frm_generar_fact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_horario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_horario.Designer.cs">
+      <DependentUpon>frm_horario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_invent_sistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_invent_sistema.Designer.cs">
+      <DependentUpon>frm_invent_sistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_modifica_cita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_modifica_cita.Designer.cs">
+      <DependentUpon>frm_modifica_cita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_orden_inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_orden_inventario.Designer.cs">
+      <DependentUpon>frm_orden_inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_orden_mecanico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_orden_mecanico.Designer.cs">
+      <DependentUpon>frm_orden_mecanico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_punto_reorden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_punto_reorden.Designer.cs">
+      <DependentUpon>frm_punto_reorden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_recibir_insumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_recibir_insumo.Designer.cs">
+      <DependentUpon>frm_recibir_insumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_recibo_proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_recibo_proveedor.Designer.cs">
+      <DependentUpon>frm_recibo_proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_registrar_cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Editar\Usuario\frm_registrar_cliente.Designer.cs">
+      <DependentUpon>frm_registrar_cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_cantidad_aceite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_cantidad_aceite.Designer.cs">
+      <DependentUpon>frm_cantidad_aceite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_combustibles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_combustibles.Designer.cs">
+      <DependentUpon>frm_combustibles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_estados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_estados.Designer.cs">
+      <DependentUpon>frm_estados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_hist_emplea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_hist_emplea.Designer.cs">
+      <DependentUpon>frm_hist_emplea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_insumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_insumos.Designer.cs">
+      <DependentUpon>frm_insumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_inventario.Designer.cs">
+      <DependentUpon>frm_inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_citas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_citas.Designer.cs">
+      <DependentUpon>frm_listar_citas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_clientes.Designer.cs">
+      <DependentUpon>frm_listar_clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_marcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_marcas.Designer.cs">
+      <DependentUpon>frm_listar_marcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_modelos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_modelos.Designer.cs">
+      <DependentUpon>frm_listar_modelos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_motor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_motor.Designer.cs">
+      <DependentUpon>frm_listar_motor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_nonima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_nonima.Designer.cs">
+      <DependentUpon>frm_listar_nonima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_proveedores.Designer.cs">
+      <DependentUpon>frm_listar_proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_Roles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_Roles.Designer.cs">
+      <DependentUpon>frm_listar_Roles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_tipVehic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_listar_tipVehic.Designer.cs">
+      <DependentUpon>frm_listar_tipVehic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_servicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_servicios.Designer.cs">
+      <DependentUpon>frm_servicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_tipos_ident.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_tipos_ident.Designer.cs">
+      <DependentUpon>frm_tipos_ident.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_unid_medida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Catalogos\Listar\frm_unid_medida.Designer.cs">
+      <DependentUpon>frm_unid_medida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Principal\frm_loggin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Principal\frm_loggin.Designer.cs">
+      <DependentUpon>frm_loggin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Principal\frm_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Principal\frm_principal.Designer.cs">
+      <DependentUpon>frm_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_capacitacion.resx">
+      <DependentUpon>frm_agrega_capacitacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_combust.resx">
+      <DependentUpon>frm_agrega_combust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_emple.resx">
+      <DependentUpon>frm_agrega_emple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_proveedor.resx">
+      <DependentUpon>frm_agrega_proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_puesto.resx">
+      <DependentUpon>frm_agrega_puesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_rol.resx">
+      <DependentUpon>frm_agrega_rol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_agrega_tipIdentif.resx">
+      <DependentUpon>frm_agrega_tipIdentif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_ajuste_inv.resx">
+      <DependentUpon>frm_ajuste_inv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_cant_aceite.resx">
+      <DependentUpon>frm_cant_aceite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_capacitacion.resx">
+      <DependentUpon>frm_capacitacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_estados.resx">
+      <DependentUpon>frm_estados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_horas_extra.resx">
+      <DependentUpon>frm_horas_extra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_insumos.resx">
+      <DependentUpon>frm_insumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_marcas.resx">
+      <DependentUpon>frm_marcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_modelos.resx">
+      <DependentUpon>frm_modelos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_modifica_empleado.resx">
+      <DependentUpon>frm_modifica_empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_puestos.resx">
+      <DependentUpon>frm_puestos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_reclutamiento.resx">
+      <DependentUpon>frm_reclutamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_recupera_contrase.resx">
+      <DependentUpon>frm_recupera_contrase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_reporte_capacita.resx">
+      <DependentUpon>frm_reporte_capacita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_roles.resx">
+      <DependentUpon>frm_roles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_servicios.resx">
+      <DependentUpon>frm_servicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_taman_motor.resx">
+      <DependentUpon>frm_taman_motor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_tipo_Vehiculo.resx">
+      <DependentUpon>frm_tipo_Vehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Admin\frm_unid_medida.resx">
+      <DependentUpon>frm_unid_medida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_cambio_contrase.resx">
+      <DependentUpon>frm_cambio_contrase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_conteo_ciclico.resx">
+      <DependentUpon>frm_conteo_ciclico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_crear_cita.resx">
+      <DependentUpon>frm_crear_cita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_factura.resx">
+      <DependentUpon>frm_factura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_generar_fact.resx">
+      <DependentUpon>frm_generar_fact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_horario.resx">
+      <DependentUpon>frm_horario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_invent_sistema.resx">
+      <DependentUpon>frm_invent_sistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_modifica_cita.resx">
+      <DependentUpon>frm_modifica_cita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_orden_inventario.resx">
+      <DependentUpon>frm_orden_inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_orden_mecanico.resx">
+      <DependentUpon>frm_orden_mecanico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_punto_reorden.resx">
+      <DependentUpon>frm_punto_reorden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_recibir_insumo.resx">
+      <DependentUpon>frm_recibir_insumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_recibo_proveedor.resx">
+      <DependentUpon>frm_recibo_proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Editar\Usuario\frm_registrar_cliente.resx">
+      <DependentUpon>frm_registrar_cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_cantidad_aceite.resx">
+      <DependentUpon>frm_cantidad_aceite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_combustibles.resx">
+      <DependentUpon>frm_combustibles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_estados.resx">
+      <DependentUpon>frm_estados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_hist_emplea.resx">
+      <DependentUpon>frm_hist_emplea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_insumos.resx">
+      <DependentUpon>frm_insumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_inventario.resx">
+      <DependentUpon>frm_inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_listar_citas.resx">
+      <DependentUpon>frm_listar_citas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_listar_clientes.resx">
+      <DependentUpon>frm_listar_clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_listar_marcas.resx">
+      <DependentUpon>frm_listar_marcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_listar_modelos.resx">
+      <DependentUpon>frm_listar_modelos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_listar_motor.resx">
+      <DependentUpon>frm_listar_motor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_listar_nonima.resx">
+      <DependentUpon>frm_listar_nonima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_listar_proveedores.resx">
+      <DependentUpon>frm_listar_proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_listar_Roles.resx">
+      <DependentUpon>frm_listar_Roles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_listar_tipVehic.resx">
+      <DependentUpon>frm_listar_tipVehic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_servicios.resx">
+      <DependentUpon>frm_servicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_tipos_ident.resx">
+      <DependentUpon>frm_tipos_ident.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Catalogos\Listar\frm_unid_medida.resx">
+      <DependentUpon>frm_unid_medida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Principal\frm_loggin.resx">
+      <DependentUpon>frm_loggin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Principal\frm_principal.resx">
+      <DependentUpon>frm_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Taller_Autom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orden _meca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orden_invent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adduser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conteo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ajust_inve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reorden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insumo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Millas_BLL\Millas_BLL.csproj">
+      <Project>{d88316b0-6b99-45b4-a621-ff69248a4ad6}</Project>
+      <Name>Millas_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Millas_DAL\Millas_DAL.csproj">
+      <Project>{ae822998-d768-4fdb-a582-adba1e743b7d}</Project>
+      <Name>Millas_DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\done.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cambioPassw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recoverPassw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nomina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capacitac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\servicOper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
