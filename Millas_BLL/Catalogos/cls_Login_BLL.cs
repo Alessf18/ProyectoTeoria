@@ -37,7 +37,7 @@ namespace Millas_BLL.Catalogos
             {
                 Obj_Login_DAL.dData = Obj_BD_DAL.Ds;
                 Obj_Login_DAL.sMsgError = string.Empty;
-                Obj_Login_DAL.sCedUsuActual =Obj_BD_DAL.sValorScalar;
+                Obj_Login_DAL.iUsuario = Convert.ToInt32(Obj_BD_DAL.sValorScalar);
                 return true;
             }
             else

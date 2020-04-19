@@ -56,3 +56,12 @@ D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\ob
 D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.csproj.CopyComplete
 D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.dll
 D:\Alejandro\UAM\Teoria de sistemas\Proyecto\Lubricentro_Millas2.1\Millas_BLL\obj\Debug\Millas_BLL.pdb
+C:\Users\Alejandro\source\repos\ProyectoTeoria\Millas_BLL\bin\Debug\Millas_BLL.dll
+C:\Users\Alejandro\source\repos\ProyectoTeoria\Millas_BLL\bin\Debug\Millas_BLL.pdb
+C:\Users\Alejandro\source\repos\ProyectoTeoria\Millas_BLL\bin\Debug\Millas_DAL.dll
+C:\Users\Alejandro\source\repos\ProyectoTeoria\Millas_BLL\bin\Debug\Millas_DAL.pdb
+C:\Users\Alejandro\source\repos\ProyectoTeoria\Millas_BLL\obj\Debug\Millas_BLL.csprojAssemblyReference.cache
+C:\Users\Alejandro\source\repos\ProyectoTeoria\Millas_BLL\obj\Debug\Millas_BLL.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\source\repos\ProyectoTeoria\Millas_BLL\obj\Debug\Millas_BLL.csproj.CopyComplete
+C:\Users\Alejandro\source\repos\ProyectoTeoria\Millas_BLL\obj\Debug\Millas_BLL.dll
+C:\Users\Alejandro\source\repos\ProyectoTeoria\Millas_BLL\obj\Debug\Millas_BLL.pdb

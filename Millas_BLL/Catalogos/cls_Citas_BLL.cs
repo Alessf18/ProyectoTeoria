@@ -74,12 +74,45 @@ namespace Millas_BLL.Catalogos
             cls_Generales_BLL Obj_Generales_BLL = new cls_Generales_BLL();
 
             Obj_Generales_BLL.CrearDTParametros(ref Obj_BD_DAL);
+            /*
+             * @Id_Clientes int,
+               @Id_VehiculosPorClientes int,
+               @Id_EstadosCitas int,
+               @Fecha date,
+               @Hora time(7),
+               @AplicoPromocion bit,
+               @Id_Crea_Empleados int,
+               @FechaCreado datetime
+               
+            case "1":
+                                        DB_TYPE = SqlDbType.NVarChar;
+                                        break;
+                                    case "2":
+                                        DB_TYPE = SqlDbType.Int;
+                                        break;
+                                    case "3":
+                                        DB_TYPE = SqlDbType.Char;
+                                        break;
+                                    case "4":
+                                        DB_TYPE = SqlDbType.Float;
+                                        break;
+                                    case "5":
+                                        DB_TYPE = SqlDbType.Time;
+                                        break;
+                                    case "6":
+                                        DB_TYPE = SqlDbType.DateTime;
+                                        break;
+                                    case "7":
+                                        DB_TYPE = SqlDbType.Bit;
+                                        break; 
 
+             */
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Id_Clientes", "2", Obj_Citas_DAL.id_Cliente);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Id_VehiculosPorClientes", "2", Obj_Citas_DAL.id_VehiculosPorClientes);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Id_EstadosCitas", "2", Obj_Citas_DAL.idEstadosCitas);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Fecha", "6", Obj_Citas_DAL.FechaCita);
-            Obj_BD_DAL.Dt_Parametros.Rows.Add("@Hora", "7", Obj_Citas_DAL.Hora); //Capturar hora
+            Obj_BD_DAL.Dt_Parametros.Rows.Add("@Hora", "5", Obj_Citas_DAL.Hora.TimeOfDay); //Capturar hora
+            Obj_BD_DAL.Dt_Parametros.Rows.Add("@AplicoPromocion", "7", Obj_Citas_DAL.bPromocion);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Id_Crea_Empleados", "2", Obj_Citas_DAL.iCod_Emple);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@FechaCreado", "6", Obj_Citas_DAL.Fecha);
 
@@ -90,6 +123,7 @@ namespace Millas_BLL.Catalogos
             if (Obj_BD_DAL.sMsError == string.Empty)
             {
                 Obj_Citas_DAL.sMgsError = string.Empty;
+                Obj_Citas_DAL.id_Citas =    Convert.ToInt32( Obj_BD_DAL.sValorScalar);
                 //obj_LineasDeTrabajo_DAL.iId_Rol = Convert.ToInt32(Obj_BD_DAL.sValorScalar.ToString());
             }
             else

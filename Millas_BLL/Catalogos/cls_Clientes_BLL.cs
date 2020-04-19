@@ -223,5 +223,33 @@ namespace Millas_BLL.Catalogos
             }
         }
         #endregion
+        #region Listar vehciulos por cliente
+            public void ListarVehiClientes(ref cls_Clientes_DAL Obj_Clientes_DAL) {
+            cls_BD_BLL Obj_BD_BLL = new cls_BD_BLL();
+            cls_BD_DAL Obj_BD_DAL = new cls_BD_DAL();
+            cls_Generales_BLL Obj_Generales_BLL = new cls_Generales_BLL();
+
+            Obj_Generales_BLL.CrearDTParametros(ref Obj_BD_DAL);
+
+            Obj_BD_DAL.Dt_Parametros.Rows.Add("@Cliente", "2", Obj_Clientes_DAL.iCod_Id); //HAY Q REVISAR//
+
+
+            Obj_BD_DAL.sParametro = ConfigurationManager.AppSettings["listarVehiculosporcliente"].ToString();
+            Obj_BD_DAL.sNombreTabla = ConfigurationManager.AppSettings["tablavehiculosporclientes"].ToString();
+
+            Obj_BD_BLL.Excute_DataAdapter(ref Obj_BD_DAL);
+
+            if (Obj_BD_DAL.sMsError == string.Empty)
+            {
+                Obj_Clientes_DAL.dData = Obj_BD_DAL.Ds;
+                Obj_Clientes_DAL.sMgsError = string.Empty;
+            }
+            else
+            {
+                Obj_Clientes_DAL.dData = null;
+                Obj_Clientes_DAL.sMgsError = Obj_BD_DAL.sMsError;
+            }
+        }
+        #endregion
     }
 }

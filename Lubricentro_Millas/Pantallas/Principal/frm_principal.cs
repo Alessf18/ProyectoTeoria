@@ -119,7 +119,10 @@ namespace Lubricentro_Millas.Pantallas.Principal
 
         private void tstItem_crear_cita_Click(object sender, EventArgs e)
         {
-            abrirFormInPanel(new Catalogos.Editar.Usuario.frm_crear_cita());
+            Catalogos.Editar.Usuario.frm_crear_cita frm_Crear_Cita = new Catalogos.Editar.Usuario.frm_crear_cita();
+            frm_Crear_Cita.Obj_Citas_DAL = new cls_Citas_DAL();
+            frm_Crear_Cita.Obj_Citas_DAL.iCod_Emple = Obj_DAL.iUsuario;
+            frm_Crear_Cita.ShowDialog();
         }
 
         private void tstItem_modif_cita_Click(object sender, EventArgs e)
