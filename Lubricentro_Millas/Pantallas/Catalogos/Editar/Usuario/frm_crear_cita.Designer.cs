@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_crear_cita));
             this.gbx_horario = new System.Windows.Forms.GroupBox();
+            this.msk_HoraCita = new System.Windows.Forms.MaskedTextBox();
+            this.dt_fechaCita = new System.Windows.Forms.DateTimePicker();
             this.btn_horario = new System.Windows.Forms.Button();
             this.lbl_hora_cita = new System.Windows.Forms.Label();
             this.lbl_fecha_cita = new System.Windows.Forms.Label();
@@ -52,7 +54,6 @@
             this.rbtn_cedula = new System.Windows.Forms.RadioButton();
             this.txt_direccion = new System.Windows.Forms.TextBox();
             this.txt_nombre = new System.Windows.Forms.TextBox();
-            this.txt_identifica = new System.Windows.Forms.TextBox();
             this.lbl_nombre = new System.Windows.Forms.Label();
             this.txt_apellidos = new System.Windows.Forms.TextBox();
             this.txt_telefono1 = new System.Windows.Forms.TextBox();
@@ -68,8 +69,7 @@
             this.btn_guardar = new System.Windows.Forms.Button();
             this.btn_atras = new System.Windows.Forms.Button();
             this.erpErrores = new System.Windows.Forms.ErrorProvider(this.components);
-            this.dt_fechaCita = new System.Windows.Forms.DateTimePicker();
-            this.msk_HoraCita = new System.Windows.Forms.MaskedTextBox();
+            this.msk_Identi = new System.Windows.Forms.MaskedTextBox();
             this.gbx_horario.SuspendLayout();
             this.gbx_datos_vehiculo.SuspendLayout();
             this.gbx_datos_person.SuspendLayout();
@@ -96,6 +96,27 @@
             this.gbx_horario.TabIndex = 29;
             this.gbx_horario.TabStop = false;
             this.gbx_horario.Text = "Detalles de Cita";
+            // 
+            // msk_HoraCita
+            // 
+            this.msk_HoraCita.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.msk_HoraCita.Culture = new System.Globalization.CultureInfo("");
+            this.msk_HoraCita.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.msk_HoraCita.Location = new System.Drawing.Point(135, 146);
+            this.msk_HoraCita.Mask = "00:00";
+            this.msk_HoraCita.Name = "msk_HoraCita";
+            this.msk_HoraCita.Size = new System.Drawing.Size(126, 22);
+            this.msk_HoraCita.TabIndex = 38;
+            this.msk_HoraCita.ValidatingType = typeof(System.DateTime);
+            // 
+            // dt_fechaCita
+            // 
+            this.dt_fechaCita.Location = new System.Drawing.Point(134, 84);
+            this.dt_fechaCita.MinDate = new System.DateTime(2020, 4, 18, 0, 0, 0, 0);
+            this.dt_fechaCita.Name = "dt_fechaCita";
+            this.dt_fechaCita.Size = new System.Drawing.Size(126, 19);
+            this.dt_fechaCita.TabIndex = 37;
+            this.dt_fechaCita.Value = new System.DateTime(2020, 4, 18, 19, 45, 32, 0);
             // 
             // btn_horario
             // 
@@ -284,13 +305,13 @@
             // 
             this.gbx_datos_person.BackColor = System.Drawing.Color.Transparent;
             this.gbx_datos_person.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.gbx_datos_person.Controls.Add(this.msk_Identi);
             this.gbx_datos_person.Controls.Add(this.txt_telefono2);
             this.gbx_datos_person.Controls.Add(this.lbl_telef2);
             this.gbx_datos_person.Controls.Add(this.btn_verificar);
             this.gbx_datos_person.Controls.Add(this.rbtn_cedula);
             this.gbx_datos_person.Controls.Add(this.txt_direccion);
             this.gbx_datos_person.Controls.Add(this.txt_nombre);
-            this.gbx_datos_person.Controls.Add(this.txt_identifica);
             this.gbx_datos_person.Controls.Add(this.lbl_nombre);
             this.gbx_datos_person.Controls.Add(this.txt_apellidos);
             this.gbx_datos_person.Controls.Add(this.txt_telefono1);
@@ -367,6 +388,7 @@
             this.rbtn_cedula.TabStop = true;
             this.rbtn_cedula.Text = "Cédula";
             this.rbtn_cedula.UseVisualStyleBackColor = false;
+            this.rbtn_cedula.CheckedChanged += new System.EventHandler(this.rbtn_cedula_CheckedChanged);
             // 
             // txt_direccion
             // 
@@ -397,19 +419,6 @@
             this.txt_nombre.Size = new System.Drawing.Size(271, 25);
             this.txt_nombre.TabIndex = 7;
             this.txt_nombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txt_identifica
-            // 
-            this.txt_identifica.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txt_identifica.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_identifica.ForeColor = System.Drawing.Color.Black;
-            this.txt_identifica.Location = new System.Drawing.Point(154, 79);
-            this.txt_identifica.MaxLength = 9;
-            this.txt_identifica.Multiline = true;
-            this.txt_identifica.Name = "txt_identifica";
-            this.txt_identifica.Size = new System.Drawing.Size(271, 25);
-            this.txt_identifica.TabIndex = 4;
-            this.txt_identifica.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lbl_nombre
             // 
@@ -507,6 +516,7 @@
             this.rbtn_residencia.TabStop = true;
             this.rbtn_residencia.Text = "# ID Residencia";
             this.rbtn_residencia.UseVisualStyleBackColor = false;
+            this.rbtn_residencia.CheckedChanged += new System.EventHandler(this.rbtn_residencia_CheckedChanged);
             // 
             // lbl_prim_ape
             // 
@@ -546,6 +556,7 @@
             this.rbtn_pasaporte.TabStop = true;
             this.rbtn_pasaporte.Text = "# Pasaporte";
             this.rbtn_pasaporte.UseVisualStyleBackColor = false;
+            this.rbtn_pasaporte.CheckedChanged += new System.EventHandler(this.rbtn_pasaporte_CheckedChanged);
             // 
             // lbl_citas
             // 
@@ -591,26 +602,17 @@
             // 
             this.erpErrores.ContainerControl = this;
             // 
-            // dt_fechaCita
+            // msk_Identi
             // 
-            this.dt_fechaCita.Location = new System.Drawing.Point(134, 84);
-            this.dt_fechaCita.MinDate = new System.DateTime(2020, 4, 18, 0, 0, 0, 0);
-            this.dt_fechaCita.Name = "dt_fechaCita";
-            this.dt_fechaCita.Size = new System.Drawing.Size(126, 19);
-            this.dt_fechaCita.TabIndex = 37;
-            this.dt_fechaCita.Value = new System.DateTime(2020, 4, 18, 19, 45, 32, 0);
-            // 
-            // msk_HoraCita
-            // 
-            this.msk_HoraCita.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.msk_HoraCita.Culture = new System.Globalization.CultureInfo("");
-            this.msk_HoraCita.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.msk_HoraCita.Location = new System.Drawing.Point(135, 146);
-            this.msk_HoraCita.Mask = "00:00";
-            this.msk_HoraCita.Name = "msk_HoraCita";
-            this.msk_HoraCita.Size = new System.Drawing.Size(126, 22);
-            this.msk_HoraCita.TabIndex = 38;
-            this.msk_HoraCita.ValidatingType = typeof(System.DateTime);
+            this.msk_Identi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.msk_Identi.Culture = new System.Globalization.CultureInfo("");
+            this.msk_Identi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.msk_Identi.Location = new System.Drawing.Point(154, 72);
+            this.msk_Identi.Mask = "0-0000-0000";
+            this.msk_Identi.Name = "msk_Identi";
+            this.msk_Identi.Size = new System.Drawing.Size(271, 22);
+            this.msk_Identi.TabIndex = 48;
+            this.msk_Identi.ValidatingType = typeof(System.DateTime);
             // 
             // frm_crear_cita
             // 
@@ -667,7 +669,6 @@
         private System.Windows.Forms.RadioButton rbtn_cedula;
         private System.Windows.Forms.TextBox txt_direccion;
         private System.Windows.Forms.TextBox txt_nombre;
-        private System.Windows.Forms.TextBox txt_identifica;
         private System.Windows.Forms.Label lbl_nombre;
         private System.Windows.Forms.TextBox txt_apellidos;
         private System.Windows.Forms.TextBox txt_telefono1;
@@ -683,5 +684,6 @@
         private System.Windows.Forms.ErrorProvider erpErrores;
         private System.Windows.Forms.DateTimePicker dt_fechaCita;
         private System.Windows.Forms.MaskedTextBox msk_HoraCita;
+        private System.Windows.Forms.MaskedTextBox msk_Identi;
     }
 }

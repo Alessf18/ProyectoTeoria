@@ -32,18 +32,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_registrar_cliente));
             this.lbl_citas = new System.Windows.Forms.Label();
             this.gbx_datos_person = new System.Windows.Forms.GroupBox();
-            this.txt_telefono2 = new System.Windows.Forms.TextBox();
+            this.msk_Telefono2 = new System.Windows.Forms.MaskedTextBox();
+            this.msk_telefono1 = new System.Windows.Forms.MaskedTextBox();
+            this.msk_Identi = new System.Windows.Forms.MaskedTextBox();
             this.lbl_telef2 = new System.Windows.Forms.Label();
             this.btn_verificar = new System.Windows.Forms.Button();
             this.rbtn_cedula = new System.Windows.Forms.RadioButton();
             this.txt_direccion = new System.Windows.Forms.TextBox();
             this.txt_nombre = new System.Windows.Forms.TextBox();
-            this.txt_identifica = new System.Windows.Forms.TextBox();
             this.txt_seg_ape = new System.Windows.Forms.TextBox();
             this.lbl_nombre = new System.Windows.Forms.Label();
             this.txt_prim_ape = new System.Windows.Forms.TextBox();
             this.lbl_seg_ape = new System.Windows.Forms.Label();
-            this.txt_telefono1 = new System.Windows.Forms.TextBox();
             this.lbl_direccion = new System.Windows.Forms.Label();
             this.txt_correo = new System.Windows.Forms.TextBox();
             this.lbl_correo = new System.Windows.Forms.Label();
@@ -57,13 +57,13 @@
             this.cmb_Modelo = new System.Windows.Forms.ComboBox();
             this.cmb_Marca = new System.Windows.Forms.ComboBox();
             this.txt_comentario = new System.Windows.Forms.TextBox();
-            this.cbx_motor_tam = new System.Windows.Forms.ComboBox();
+            this.cbx_combus = new System.Windows.Forms.ComboBox();
             this.lbl_motor = new System.Windows.Forms.Label();
             this.lbl_annio = new System.Windows.Forms.Label();
             this.lbl_coments = new System.Windows.Forms.Label();
             this.lbl_modelo = new System.Windows.Forms.Label();
             this.lbl_marca = new System.Windows.Forms.Label();
-            this.cbx_tipo = new System.Windows.Forms.ComboBox();
+            this.cbx_tipos = new System.Windows.Forms.ComboBox();
             this.txt_placa = new System.Windows.Forms.TextBox();
             this.lbl_tipo = new System.Windows.Forms.Label();
             this.lbl_placa = new System.Windows.Forms.Label();
@@ -100,18 +100,18 @@
             // 
             this.gbx_datos_person.BackColor = System.Drawing.Color.Transparent;
             this.gbx_datos_person.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.gbx_datos_person.Controls.Add(this.txt_telefono2);
+            this.gbx_datos_person.Controls.Add(this.msk_Telefono2);
+            this.gbx_datos_person.Controls.Add(this.msk_telefono1);
+            this.gbx_datos_person.Controls.Add(this.msk_Identi);
             this.gbx_datos_person.Controls.Add(this.lbl_telef2);
             this.gbx_datos_person.Controls.Add(this.btn_verificar);
             this.gbx_datos_person.Controls.Add(this.rbtn_cedula);
             this.gbx_datos_person.Controls.Add(this.txt_direccion);
             this.gbx_datos_person.Controls.Add(this.txt_nombre);
-            this.gbx_datos_person.Controls.Add(this.txt_identifica);
             this.gbx_datos_person.Controls.Add(this.txt_seg_ape);
             this.gbx_datos_person.Controls.Add(this.lbl_nombre);
             this.gbx_datos_person.Controls.Add(this.txt_prim_ape);
             this.gbx_datos_person.Controls.Add(this.lbl_seg_ape);
-            this.gbx_datos_person.Controls.Add(this.txt_telefono1);
             this.gbx_datos_person.Controls.Add(this.lbl_direccion);
             this.gbx_datos_person.Controls.Add(this.txt_correo);
             this.gbx_datos_person.Controls.Add(this.lbl_correo);
@@ -130,19 +130,39 @@
             this.gbx_datos_person.TabStop = false;
             this.gbx_datos_person.Text = "Datos Personales";
             // 
-            // txt_telefono2
+            // msk_Telefono2
             // 
-            this.txt_telefono2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txt_telefono2.Enabled = false;
-            this.txt_telefono2.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_telefono2.ForeColor = System.Drawing.Color.Black;
-            this.txt_telefono2.Location = new System.Drawing.Point(154, 298);
-            this.txt_telefono2.MaxLength = 25;
-            this.txt_telefono2.Multiline = true;
-            this.txt_telefono2.Name = "txt_telefono2";
-            this.txt_telefono2.Size = new System.Drawing.Size(271, 25);
-            this.txt_telefono2.TabIndex = 10;
-            this.txt_telefono2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.msk_Telefono2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.msk_Telefono2.Culture = new System.Globalization.CultureInfo("");
+            this.msk_Telefono2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.msk_Telefono2.Location = new System.Drawing.Point(154, 303);
+            this.msk_Telefono2.Mask = "00-00-00-00";
+            this.msk_Telefono2.Name = "msk_Telefono2";
+            this.msk_Telefono2.Size = new System.Drawing.Size(271, 22);
+            this.msk_Telefono2.TabIndex = 51;
+            // 
+            // msk_telefono1
+            // 
+            this.msk_telefono1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.msk_telefono1.Culture = new System.Globalization.CultureInfo("");
+            this.msk_telefono1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.msk_telefono1.Location = new System.Drawing.Point(154, 264);
+            this.msk_telefono1.Mask = "00-00-00-00";
+            this.msk_telefono1.Name = "msk_telefono1";
+            this.msk_telefono1.Size = new System.Drawing.Size(271, 22);
+            this.msk_telefono1.TabIndex = 50;
+            // 
+            // msk_Identi
+            // 
+            this.msk_Identi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.msk_Identi.Culture = new System.Globalization.CultureInfo("");
+            this.msk_Identi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.msk_Identi.Location = new System.Drawing.Point(154, 69);
+            this.msk_Identi.Mask = "0-0000-0000";
+            this.msk_Identi.Name = "msk_Identi";
+            this.msk_Identi.Size = new System.Drawing.Size(271, 22);
+            this.msk_Identi.TabIndex = 49;
+            this.msk_Identi.ValidatingType = typeof(System.DateTime);
             // 
             // lbl_telef2
             // 
@@ -182,6 +202,7 @@
             this.rbtn_cedula.TabStop = true;
             this.rbtn_cedula.Text = "Cédula";
             this.rbtn_cedula.UseVisualStyleBackColor = false;
+            this.rbtn_cedula.CheckedChanged += new System.EventHandler(this.rbtn_cedula_CheckedChanged);
             // 
             // txt_direccion
             // 
@@ -210,21 +231,8 @@
             this.txt_nombre.Size = new System.Drawing.Size(271, 25);
             this.txt_nombre.TabIndex = 6;
             this.txt_nombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_nombre_KeyPress);
             this.txt_nombre.Leave += new System.EventHandler(this.txt_nombre_Leave);
-            // 
-            // txt_identifica
-            // 
-            this.txt_identifica.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txt_identifica.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_identifica.ForeColor = System.Drawing.Color.Black;
-            this.txt_identifica.Location = new System.Drawing.Point(154, 79);
-            this.txt_identifica.MaxLength = 9;
-            this.txt_identifica.Multiline = true;
-            this.txt_identifica.Name = "txt_identifica";
-            this.txt_identifica.Size = new System.Drawing.Size(271, 25);
-            this.txt_identifica.TabIndex = 4;
-            this.txt_identifica.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txt_identifica.Leave += new System.EventHandler(this.txt_identifica_Leave);
             // 
             // txt_seg_ape
             // 
@@ -239,6 +247,7 @@
             this.txt_seg_ape.Size = new System.Drawing.Size(271, 25);
             this.txt_seg_ape.TabIndex = 8;
             this.txt_seg_ape.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_seg_ape.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_seg_ape_KeyPress);
             // 
             // lbl_nombre
             // 
@@ -265,6 +274,7 @@
             this.txt_prim_ape.Size = new System.Drawing.Size(271, 25);
             this.txt_prim_ape.TabIndex = 7;
             this.txt_prim_ape.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_prim_ape.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_prim_ape_KeyPress);
             // 
             // lbl_seg_ape
             // 
@@ -277,20 +287,6 @@
             this.lbl_seg_ape.Size = new System.Drawing.Size(120, 13);
             this.lbl_seg_ape.TabIndex = 10;
             this.lbl_seg_ape.Text = "Segundo Apellido";
-            // 
-            // txt_telefono1
-            // 
-            this.txt_telefono1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txt_telefono1.Enabled = false;
-            this.txt_telefono1.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_telefono1.ForeColor = System.Drawing.Color.Black;
-            this.txt_telefono1.Location = new System.Drawing.Point(154, 264);
-            this.txt_telefono1.MaxLength = 10;
-            this.txt_telefono1.Multiline = true;
-            this.txt_telefono1.Name = "txt_telefono1";
-            this.txt_telefono1.Size = new System.Drawing.Size(271, 25);
-            this.txt_telefono1.TabIndex = 9;
-            this.txt_telefono1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lbl_direccion
             // 
@@ -344,6 +340,7 @@
             this.rbtn_residencia.TabStop = true;
             this.rbtn_residencia.Text = "# ID Residencia";
             this.rbtn_residencia.UseVisualStyleBackColor = false;
+            this.rbtn_residencia.CheckedChanged += new System.EventHandler(this.rbtn_residencia_CheckedChanged);
             // 
             // lbl_prim_ape
             // 
@@ -351,7 +348,7 @@
             this.lbl_prim_ape.BackColor = System.Drawing.Color.Transparent;
             this.lbl_prim_ape.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_prim_ape.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lbl_prim_ape.Location = new System.Drawing.Point(22, 213);
+            this.lbl_prim_ape.Location = new System.Drawing.Point(22, 205);
             this.lbl_prim_ape.Name = "lbl_prim_ape";
             this.lbl_prim_ape.Size = new System.Drawing.Size(108, 13);
             this.lbl_prim_ape.TabIndex = 8;
@@ -383,6 +380,7 @@
             this.rbtn_pasaporte.TabStop = true;
             this.rbtn_pasaporte.Text = "# Pasaporte";
             this.rbtn_pasaporte.UseVisualStyleBackColor = false;
+            this.rbtn_pasaporte.CheckedChanged += new System.EventHandler(this.rbtn_pasaporte_CheckedChanged);
             // 
             // gbx_datos_vehic
             // 
@@ -391,13 +389,13 @@
             this.gbx_datos_vehic.Controls.Add(this.cmb_Modelo);
             this.gbx_datos_vehic.Controls.Add(this.cmb_Marca);
             this.gbx_datos_vehic.Controls.Add(this.txt_comentario);
-            this.gbx_datos_vehic.Controls.Add(this.cbx_motor_tam);
+            this.gbx_datos_vehic.Controls.Add(this.cbx_combus);
             this.gbx_datos_vehic.Controls.Add(this.lbl_motor);
             this.gbx_datos_vehic.Controls.Add(this.lbl_annio);
             this.gbx_datos_vehic.Controls.Add(this.lbl_coments);
             this.gbx_datos_vehic.Controls.Add(this.lbl_modelo);
             this.gbx_datos_vehic.Controls.Add(this.lbl_marca);
-            this.gbx_datos_vehic.Controls.Add(this.cbx_tipo);
+            this.gbx_datos_vehic.Controls.Add(this.cbx_tipos);
             this.gbx_datos_vehic.Controls.Add(this.txt_placa);
             this.gbx_datos_vehic.Controls.Add(this.lbl_tipo);
             this.gbx_datos_vehic.Controls.Add(this.lbl_placa);
@@ -494,12 +492,12 @@
             this.txt_comentario.Size = new System.Drawing.Size(271, 48);
             this.txt_comentario.TabIndex = 19;
             // 
-            // cbx_motor_tam
+            // cbx_combus
             // 
-            this.cbx_motor_tam.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.cbx_motor_tam.ForeColor = System.Drawing.Color.White;
-            this.cbx_motor_tam.FormattingEnabled = true;
-            this.cbx_motor_tam.Items.AddRange(new object[] {
+            this.cbx_combus.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.cbx_combus.ForeColor = System.Drawing.Color.White;
+            this.cbx_combus.FormattingEnabled = true;
+            this.cbx_combus.Items.AddRange(new object[] {
             "1600cc",
             "1800cc",
             "2000cc",
@@ -513,11 +511,11 @@
             "5000cc",
             "5600cc",
             "6000cc"});
-            this.cbx_motor_tam.Location = new System.Drawing.Point(284, 160);
-            this.cbx_motor_tam.Margin = new System.Windows.Forms.Padding(2);
-            this.cbx_motor_tam.Name = "cbx_motor_tam";
-            this.cbx_motor_tam.Size = new System.Drawing.Size(114, 21);
-            this.cbx_motor_tam.TabIndex = 18;
+            this.cbx_combus.Location = new System.Drawing.Point(284, 160);
+            this.cbx_combus.Margin = new System.Windows.Forms.Padding(2);
+            this.cbx_combus.Name = "cbx_combus";
+            this.cbx_combus.Size = new System.Drawing.Size(114, 21);
+            this.cbx_combus.TabIndex = 18;
             // 
             // lbl_motor
             // 
@@ -579,12 +577,12 @@
             this.lbl_marca.TabIndex = 25;
             this.lbl_marca.Text = "Marca";
             // 
-            // cbx_tipo
+            // cbx_tipos
             // 
-            this.cbx_tipo.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.cbx_tipo.ForeColor = System.Drawing.Color.White;
-            this.cbx_tipo.FormattingEnabled = true;
-            this.cbx_tipo.Items.AddRange(new object[] {
+            this.cbx_tipos.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.cbx_tipos.ForeColor = System.Drawing.Color.White;
+            this.cbx_tipos.FormattingEnabled = true;
+            this.cbx_tipos.Items.AddRange(new object[] {
             "Sedán",
             "Cupé",
             "Deportivo",
@@ -596,11 +594,11 @@
             "Compacto",
             "PickUp",
             "Microbus pequeña"});
-            this.cbx_tipo.Location = new System.Drawing.Point(170, 63);
-            this.cbx_tipo.Margin = new System.Windows.Forms.Padding(2);
-            this.cbx_tipo.Name = "cbx_tipo";
-            this.cbx_tipo.Size = new System.Drawing.Size(169, 21);
-            this.cbx_tipo.TabIndex = 14;
+            this.cbx_tipos.Location = new System.Drawing.Point(170, 63);
+            this.cbx_tipos.Margin = new System.Windows.Forms.Padding(2);
+            this.cbx_tipos.Name = "cbx_tipos";
+            this.cbx_tipos.Size = new System.Drawing.Size(169, 21);
+            this.cbx_tipos.TabIndex = 14;
             // 
             // txt_placa
             // 
@@ -797,18 +795,15 @@
 
         private System.Windows.Forms.Label lbl_citas;
         private System.Windows.Forms.GroupBox gbx_datos_person;
-        private System.Windows.Forms.TextBox txt_telefono2;
         private System.Windows.Forms.Label lbl_telef2;
         private System.Windows.Forms.Button btn_verificar;
         private System.Windows.Forms.RadioButton rbtn_cedula;
         private System.Windows.Forms.TextBox txt_direccion;
         private System.Windows.Forms.TextBox txt_nombre;
-        private System.Windows.Forms.TextBox txt_identifica;
         private System.Windows.Forms.TextBox txt_seg_ape;
         private System.Windows.Forms.Label lbl_nombre;
         private System.Windows.Forms.TextBox txt_prim_ape;
         private System.Windows.Forms.Label lbl_seg_ape;
-        private System.Windows.Forms.TextBox txt_telefono1;
         private System.Windows.Forms.Label lbl_direccion;
         private System.Windows.Forms.TextBox txt_correo;
         private System.Windows.Forms.Label lbl_correo;
@@ -817,7 +812,7 @@
         private System.Windows.Forms.Label lbl_telef1;
         private System.Windows.Forms.RadioButton rbtn_pasaporte;
         private System.Windows.Forms.GroupBox gbx_datos_vehic;
-        private System.Windows.Forms.ComboBox cbx_tipo;
+        private System.Windows.Forms.ComboBox cbx_tipos;
         private System.Windows.Forms.TextBox txt_placa;
         private System.Windows.Forms.Label lbl_tipo;
         private System.Windows.Forms.Label lbl_placa;
@@ -829,7 +824,7 @@
         private System.Windows.Forms.Label lbl_tip_aceite;
         private System.Windows.Forms.Label lbl_tip_coolant;
         private System.Windows.Forms.TextBox txt_comentario;
-        private System.Windows.Forms.ComboBox cbx_motor_tam;
+        private System.Windows.Forms.ComboBox cbx_combus;
         private System.Windows.Forms.Label lbl_motor;
         private System.Windows.Forms.Label lbl_annio;
         private System.Windows.Forms.Label lbl_coments;
@@ -843,5 +838,8 @@
         private System.Windows.Forms.ComboBox cmb_Marca;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ErrorProvider erpErrores;
+        private System.Windows.Forms.MaskedTextBox msk_Identi;
+        private System.Windows.Forms.MaskedTextBox msk_telefono1;
+        private System.Windows.Forms.MaskedTextBox msk_Telefono2;
     }
 }

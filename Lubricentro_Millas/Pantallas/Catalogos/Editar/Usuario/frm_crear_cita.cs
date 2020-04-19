@@ -56,12 +56,44 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
                 Obj_Citas_BLL.Insert_Citas(ref Obj_Citas_DAL);
                 if (Obj_Citas_DAL.sMgsError == "")
                 {
-                    MessageBox.Show("Cita agendada de manera correcta", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                 
-                }
+                    cls_ServciosPorCitas_BLL Obj_SPorCitas_BLL = new cls_ServciosPorCitas_BLL();
+                    cls_ServciosPorCitas_DAL Obj_SPorCitas_DAL = new cls_ServciosPorCitas_DAL();
+                    
+                    Obj_SPorCitas_DAL.iIdCitas = Obj_Citas_DAL.id_Citas;
+                    Obj_SPorCitas_DAL.iIdEmp = Obj_Citas_DAL.iCod_Emple;
+                    Obj_SPorCitas_DAL.datFechaCr = DateTime.Now;
+                    for (int i = 0; i < IdServicios.Count; i++)
+                    {
+                        Obj_SPorCitas_DAL.iIdServicios = IdServicios.ElementAt(i);
+                        Obj_SPorCitas_BLL.Insert_ServciosPorCitas(ref Obj_SPorCitas_DAL);
+                    }
+                    if (Obj_SPorCitas_DAL.sMgsError == "")
+                    {
+                        MessageBox.Show("Cita agendada de manera correcta", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        msk_Identi.ResetText();
+                        txt_nombre.ResetText();
+                        txt_apellidos.ResetText();
+                        txt_telefono1.ResetText();
+                        txt_telefono2.ResetText();
+                        txt_correo.ResetText();
+                        txt_direccion.ResetText();
+                        cbx_placa.ResetText();
+                        dt_fechaCita.ResetText();
+                        msk_HoraCita.ResetText();
+                        ckbx_alineamiento.Checked = false;
+                        ckbx_aceite.Checked = false;
+                        ckbx_coolant.Checked = false;
+                        ckbx_f_aire.Checked = false;
+                        ckbx_cargaAC.Checked = false;
+                        msk_Identi.Focus();
+
+                    }
+                    else {
+                        MessageBox.Show(Obj_Citas_DAL.sMgsError, "Ocurrio un error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                } 
                 else {
                     MessageBox.Show(Obj_Citas_DAL.sMgsError, "Ocurrio un error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
                 }
             }
 
@@ -83,18 +115,18 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
         private void btn_verificar_Click(object sender, EventArgs e)
         {
 
-            if (txt_identifica.Text.Trim() == string.Empty)
+            if (msk_Identi.Text.Trim() == string.Empty)
             {
-                erpErrores.SetError(txt_identifica, "Debe llenar este campo antes de realizar la busqueda");
-                txt_identifica.Focus();
+                erpErrores.SetError(msk_Identi, "Debe llenar este campo antes de realizar la busqueda");
+                msk_Identi.Focus();
             }
             else
             {
                 erpErrores.Clear();
               
-                Obj_Cliente_DAL.Siden = txt_identifica.Text.Trim();
+                Obj_Cliente_DAL.Siden = msk_Identi.Text.Trim();
                 Obj_Cliente_BLL.ObtenerInfo(ref Obj_Cliente_DAL);
-                if (Obj_Cliente_DAL.dData != null)
+                if (Obj_Cliente_DAL.dData.Tables != null)
                 {
                     Obj_Cliente_DAL.iCod_Id =Convert.ToInt32 (Obj_Cliente_DAL.dData.Tables[0].Rows[0].ItemArray[0]);
                     txt_nombre.Text =Obj_Cliente_DAL.dData.Tables[0].Rows[0].ItemArray[1].ToString();
@@ -108,8 +140,8 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
                 else
                 {
                     MessageBox.Show("No existe un cliente registrado con ese número de identificación", "Cliente no existe", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    txt_identifica.ResetText();
-                    txt_identifica.Focus();
+                    msk_Identi.ResetText();
+                    msk_Identi.Focus();
                 }
             }
     }
@@ -192,6 +224,21 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
             {
                 IdServicios.Remove(5);
             }
+        }
+
+        private void rbtn_cedula_CheckedChanged(object sender, EventArgs e)
+        {
+            msk_Identi.Mask = "0-0000-0000";
+        }
+
+        private void rbtn_pasaporte_CheckedChanged(object sender, EventArgs e)
+        {
+            msk_Identi.Mask = "AA000000";
+        }
+
+        private void rbtn_residencia_CheckedChanged(object sender, EventArgs e)
+        {
+            msk_Identi.Mask = "0-0000-0000";
         }
     }
 }

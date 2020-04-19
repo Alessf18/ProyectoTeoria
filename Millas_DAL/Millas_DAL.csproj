@@ -62,6 +62,7 @@
     <Compile Include="Catalogos\cls_PuntoReorden_DAL.cs" />
     <Compile Include="Catalogos\cls_ReciboProveedores_DAL.cs" />
     <Compile Include="Catalogos\cls_Roles_DAL.cs" />
+    <Compile Include="Catalogos\cls_ServciosPorCitas_DAL.cs" />
     <Compile Include="Catalogos\cls_Servicios_DAL.cs" />
     <Compile Include="Catalogos\cls_TipoIdentificacion_DAL.cs" />
     <Compile Include="Catalogos\cls_TiposVehiculos_DAL.cs" />

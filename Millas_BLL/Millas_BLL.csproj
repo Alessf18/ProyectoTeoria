@@ -63,6 +63,7 @@
     <Compile Include="Catalogos\cls_PuntoReorden_BLL.cs" />
     <Compile Include="Catalogos\cls_ReciboProveedores_BLL.cs" />
     <Compile Include="Catalogos\cls_Roles_BLL.cs" />
+    <Compile Include="Catalogos\cls_ServciosPorCitas_BLL.cs" />
     <Compile Include="Catalogos\cls_Servicios_BLL.cs" />
     <Compile Include="Catalogos\cls_TipoIdentificacion_BLL.cs" />
     <Compile Include="Catalogos\cls_TiposVehiculos_BLL.cs" />
