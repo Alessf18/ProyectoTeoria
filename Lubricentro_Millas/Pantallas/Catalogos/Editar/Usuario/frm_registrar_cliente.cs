@@ -12,14 +12,16 @@ using Millas_DAL.BD;
 using Millas_DAL.Catalogos;
 using Millas_BLL.Catalogos;
 using System.Configuration;
-using System.Text.RegularExpressions;
+
 
 namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
 {
     public partial class frm_registrar_cliente : Form
     {
-        //cls_BD_BLL Obj_BLL_DB = new cls_BD_BLL();
-        //cls_BD_DAL Obj_CNX_DAL = new cls_BD_DAL();
+        #region Variables Globales
+        public cls_Clientes_DAL Obj_Cliente_DAL=new cls_Clientes_DAL();
+        #endregion
+       
 
         public cls_Clientes_DAL Obj_Clientes_DAL;
         public frm_registrar_cliente()
@@ -29,19 +31,62 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
 
         private void btn_guardar_Click(object sender, EventArgs e)
         {
+            /*
+            
+                @Nombre varchar(50),
+           @Apellidos varchar(50),
+           @id_TiposIdentificaciones int,
+           @Identificacion varchar(20),
+           @Correo varchar(50),
+           @TelefonoCelular int,
+           @TelefonoFijo int,
+           @Direccion VARCHAR(250),
+           @Id_Crea_Empleados int,
+           @FechaCreado datetime)
+             */
             cls_Clientes_BLL Obj_Cliente_BLL = new cls_Clientes_BLL();
-            cls_Clientes_DAL Obj_Cliente_DAL = new cls_Clientes_DAL();
+           
             Obj_Clientes_DAL.sNombres = txt_nombre.Text.Trim();
-            Obj_Clientes_DAL.Siden = msk_Identi.Text;
             Obj_Clientes_DAL.sApellidos = txt_prim_ape.Text.Trim() + " " + txt_seg_ape.Text.Trim();
-            msk_telefono1.Text = msk_telefono1.Text.Replace("-", "");
-            Obj_Clientes_DAL.iNumeroTele = Convert.ToInt32(msk_telefono1.Text.Trim());
-            msk_Telefono2.Text = msk_Telefono2.Text.Replace("-", "");
-            Obj_Clientes_DAL.iNumeroCel =Convert.ToInt32( msk_Telefono2.Text.Trim());
+            Obj_Clientes_DAL.Siden = msk_Identi.Text;
+            Obj_Clientes_DAL.iNumeroTele = Convert.ToInt32(txt_Telefono1.Text.Trim());
+            Obj_Clientes_DAL.iNumeroCel =Convert.ToInt32( txt_Telefono2.Text.Trim());
             Obj_Clientes_DAL.sCorreo = txt_correo.Text.Trim();
             Obj_Clientes_DAL.sDireccion = txt_direccion.Text.Trim();
-            MessageBox.Show("Cliente registrado \nexitosamente!!", "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            this.Dispose();
+            Obj_Clientes_DAL.FechaCreado = DateTime.Now;
+            Obj_Cliente_BLL.Insert_Clientes(ref Obj_Cliente_DAL);
+            if (Obj_Cliente_DAL.iCod_Id != -1) {
+                /*
+             @Id_Clientes int,
+            @Placa varchar(20),
+             @Id_TiposVehiculos int,
+            @Id_Combustible int,
+             @Id_MarcasVehiculos int,
+            @Id_ModelosVehiculos int,
+            @Anio int,
+            @Comentario varchar(50)    
+             
+             */
+                cls_VehiPorClientes_BLL Obj_Vh_BLL = new cls_VehiPorClientes_BLL();
+                cls_VehiPorClientes_DAL Obj_Vh_DAL = new cls_VehiPorClientes_DAL();
+                Obj_Vh_DAL.iId_Cliente = Obj_Cliente_DAL.iCod_Id;
+                Obj_Vh_DAL.sPlaca = msk_placa.Text.Trim();
+                Obj_Vh_DAL.iCod_TipoVehiculos = Convert.ToInt32 (cbx_tipos.SelectedValue);
+                Obj_Vh_DAL.iCod_Combustible = Convert.ToInt32(cbx_combus.SelectedValue);
+                Obj_Vh_DAL.iCod_MarcasVehiculos = Convert.ToInt32(cmb_Marca.SelectedValue);
+                Obj_Vh_DAL.iCod_ModelosVehiculos = Convert.ToInt32(cmb_Modelo.SelectedValue);
+                Obj_Vh_DAL.iAnio = Convert.ToInt32(nUD_Anio.Value);
+                Obj_Vh_DAL.sComentario = txt_comentario.Text.Trim();
+                Obj_Vh_BLL.Insert_VehiPorClientes(ref Obj_Vh_DAL);
+                if (Obj_Vh_DAL.sMgsError == "") {
+                    MessageBox.Show("Cliente registrado \nexitosamente!!", "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else{
+                    MessageBox.Show(Obj_Vh_DAL.sMgsError, "Ocurrio un error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+                }
+            }
         }
 
         private void btn_atras_Click(object sender, EventArgs e)
@@ -61,6 +106,7 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
             cls_Clientes_DAL obj_Cli = new cls_Clientes_DAL();
             obj_Cli.cBanOpc = 'I';
             Obj_Clientes_DAL = obj_Cli;
+            nUD_Anio.Maximum = DateTime.Now.Year;
             CargarCombo();
        
         }
@@ -77,7 +123,7 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
             cls_Marcas_BLL Obj_Marcacs_BLL = new cls_Marcas_BLL();
             cls_ModelosVehi_BLL Obj_Modelos_BLL = new cls_ModelosVehi_BLL();
             cls_TiposVehiculos_BLL Obj_Tipos_BLL = new cls_TiposVehiculos_BLL();
-            cls_Clientes_BLL obj_Clientes_BLL = new cls_Clientes_BLL();
+           
             cls_Combustible_BLL Obj_Combus_BLL=new cls_Combustible_BLL();
 
             #endregion
@@ -88,7 +134,7 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
 
             Obj_Modelos_BLL.List_ModelosVehi(ref Obj_Modelos_DAL);
             cmb_Modelo.DataSource = Obj_Modelos_DAL.dData.Tables[ConfigurationManager.AppSettings["tablamodelosvehiculos"].ToString()].DefaultView;
-            cmb_Modelo.DisplayMember = Obj_Modelos_DAL.dData.Tables[ConfigurationManager.AppSettings["tablamodelosvehiculos"].ToString()].Columns["Modelo"].ToString();
+            cmb_Modelo.DisplayMember = Obj_Modelos_DAL.dData.Tables[0].Columns["Modelo"].ToString();
             cmb_Modelo.ValueMember = "Id";//Modelo
 
             Obj_Tipos_BLL.List_TiposVehiculos(ref Obj_TipoVehi_DAL);
@@ -103,14 +149,14 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
         }
 
 
-        private void txt_placa_Leave(object sender, EventArgs e)
+        private void msk_placa_Leave(object sender, EventArgs e)
         {
-            Regex regexPlacaV1 = new Regex("^[A-Z]{3,3}\\- [0-9]{3,3}$");
-            //Regex regexPlacaV2 = new Regex("^[0-9]{3,3}\\- [A-Z]{3,3]$");
-            if (regexPlacaV1.IsMatch(txt_placa.Text.Trim()) == false) {
-                erpErrores.SetError(txt_placa,"Formato incorrecto, ej: 123-ABC ó ABC-123");
-                txt_placa.ResetText();
-                txt_placa.Focus();
+            if (msk_placa.Text == "") {
+                erpErrores.SetError(msk_placa,"debe de llenar este campo");
+                msk_placa.Focus();
+            }
+            else{
+                erpErrores.Clear();
             }
         }
 
@@ -127,14 +173,14 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
         {
             msk_Identi.Mask = "0-0000-0000";
             msk_Identi.Focus();
-
+            Obj_Cliente_DAL.ICod_id_Identificaciones = 1;
         }
 
         private void rbtn_pasaporte_CheckedChanged(object sender, EventArgs e)
         {
             msk_Identi.Mask = "AA000000";
             msk_Identi.Focus();
-
+            Obj_Cliente_DAL.ICod_id_Identificaciones = 2;
         }
 
         private void rbtn_residencia_CheckedChanged(object sender, EventArgs e)

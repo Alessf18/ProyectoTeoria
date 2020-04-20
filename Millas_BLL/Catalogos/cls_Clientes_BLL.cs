@@ -70,7 +70,35 @@ namespace Millas_BLL.Catalogos
             cls_Generales_BLL Obj_Generales_BLL = new cls_Generales_BLL();
 
             Obj_Generales_BLL.CrearDTParametros(ref Obj_BD_DAL);
-
+            /*
+              {
+                                    case "1":
+                                        DB_TYPE = SqlDbType.NVarChar;
+                                        break;
+                                    case "2":
+                                        DB_TYPE = SqlDbType.Int;
+                                        break;
+                                    case "3":
+                                        DB_TYPE = SqlDbType.Char;
+                                        break;
+                                    case "4":
+                                        DB_TYPE = SqlDbType.Float;
+                                        break;
+                                    case "5":
+                                        DB_TYPE = SqlDbType.Time;
+                                        break;
+                                    case "6":
+                                        DB_TYPE = SqlDbType.DateTime;
+                                        break;
+                                    case "7":
+                                        DB_TYPE = SqlDbType.Bit;
+                                        break;
+                                    default:
+                                        DB_TYPE = SqlDbType.VarChar;
+                                        break;
+                                }
+             
+             */
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Nombre", "1", obj_Clientes_DAL.sNombres);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Apellidos", "1", obj_Clientes_DAL.sApellidos);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@id_TiposIdentificaciones", "2", obj_Clientes_DAL.ICod_id_Identificaciones);
@@ -89,7 +117,7 @@ namespace Millas_BLL.Catalogos
             if (Obj_BD_DAL.sMsError == string.Empty)
             {
                 obj_Clientes_DAL.sMgsError = string.Empty;
-                //obj_Clientes_DAL.iCod_Id = Convert.ToInt32(Obj_BD_DAL.sValorScalar.ToString()); //Problema, lo trae nulo 
+                obj_Clientes_DAL.iCod_Id = Convert.ToInt32(Obj_BD_DAL.sValorScalar.ToString()); //Problema, lo trae nulo 
             }
             else
             {
