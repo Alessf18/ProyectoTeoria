@@ -31,11 +31,15 @@
             this.components = new System.ComponentModel.Container();
             this.lbl_citas = new System.Windows.Forms.Label();
             this.gbx_datos_person = new System.Windows.Forms.GroupBox();
+            this.txt_Telefono2 = new System.Windows.Forms.TextBox();
+            this.txt_Telefono1 = new System.Windows.Forms.TextBox();
             this.msk_Identi = new System.Windows.Forms.MaskedTextBox();
             this.lbl_telef2 = new System.Windows.Forms.Label();
             this.rbtn_cedula = new System.Windows.Forms.RadioButton();
             this.txt_direccion = new System.Windows.Forms.TextBox();
+            this.txt_nombre = new System.Windows.Forms.TextBox();
             this.txt_seg_ape = new System.Windows.Forms.TextBox();
+            this.lbl_nombre = new System.Windows.Forms.Label();
             this.txt_prim_ape = new System.Windows.Forms.TextBox();
             this.lbl_seg_ape = new System.Windows.Forms.Label();
             this.lbl_direccion = new System.Windows.Forms.Label();
@@ -46,6 +50,8 @@
             this.lbl_telef1 = new System.Windows.Forms.Label();
             this.rbtn_pasaporte = new System.Windows.Forms.RadioButton();
             this.gbx_datos_vehic = new System.Windows.Forms.GroupBox();
+            this.msk_placa = new System.Windows.Forms.MaskedTextBox();
+            this.nUD_Anio = new System.Windows.Forms.NumericUpDown();
             this.AñadirMarca = new System.Windows.Forms.Label();
             this.cmb_Modelo = new System.Windows.Forms.ComboBox();
             this.cmb_Marca = new System.Windows.Forms.ComboBox();
@@ -59,28 +65,14 @@
             this.cbx_tipos = new System.Windows.Forms.ComboBox();
             this.lbl_tipo = new System.Windows.Forms.Label();
             this.lbl_placa = new System.Windows.Forms.Label();
-            this.gbx_dat_tecnic = new System.Windows.Forms.GroupBox();
-            this.rbtn_coolFresh = new System.Windows.Forms.RadioButton();
-            this.rbtn_resFresh = new System.Windows.Forms.RadioButton();
-            this.rbtn_castroler = new System.Windows.Forms.RadioButton();
-            this.rbtn_penzoil = new System.Windows.Forms.RadioButton();
-            this.lbl_tip_aceite = new System.Windows.Forms.Label();
-            this.lbl_tip_coolant = new System.Windows.Forms.Label();
             this.btn_guardar = new System.Windows.Forms.Button();
             this.btn_atras = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.erpErrores = new System.Windows.Forms.ErrorProvider(this.components);
-            this.nUD_Anio = new System.Windows.Forms.NumericUpDown();
-            this.msk_placa = new System.Windows.Forms.MaskedTextBox();
-            this.lbl_nombre = new System.Windows.Forms.Label();
-            this.txt_nombre = new System.Windows.Forms.TextBox();
-            this.txt_Telefono1 = new System.Windows.Forms.TextBox();
-            this.txt_Telefono2 = new System.Windows.Forms.TextBox();
             this.gbx_datos_person.SuspendLayout();
             this.gbx_datos_vehic.SuspendLayout();
-            this.gbx_dat_tecnic.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.erpErrores)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUD_Anio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpErrores)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_citas
@@ -128,6 +120,34 @@
             this.gbx_datos_person.TabStop = false;
             this.gbx_datos_person.Text = "Datos Personales";
             // 
+            // txt_Telefono2
+            // 
+            this.txt_Telefono2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txt_Telefono2.Enabled = false;
+            this.txt_Telefono2.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Telefono2.ForeColor = System.Drawing.Color.Black;
+            this.txt_Telefono2.Location = new System.Drawing.Point(154, 287);
+            this.txt_Telefono2.MaxLength = 25;
+            this.txt_Telefono2.Multiline = true;
+            this.txt_Telefono2.Name = "txt_Telefono2";
+            this.txt_Telefono2.Size = new System.Drawing.Size(271, 25);
+            this.txt_Telefono2.TabIndex = 53;
+            this.txt_Telefono2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_Telefono1
+            // 
+            this.txt_Telefono1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txt_Telefono1.Enabled = false;
+            this.txt_Telefono1.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Telefono1.ForeColor = System.Drawing.Color.Black;
+            this.txt_Telefono1.Location = new System.Drawing.Point(154, 248);
+            this.txt_Telefono1.MaxLength = 25;
+            this.txt_Telefono1.Multiline = true;
+            this.txt_Telefono1.Name = "txt_Telefono1";
+            this.txt_Telefono1.Size = new System.Drawing.Size(271, 25);
+            this.txt_Telefono1.TabIndex = 52;
+            this.txt_Telefono1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // msk_Identi
             // 
             this.msk_Identi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -139,6 +159,7 @@
             this.msk_Identi.Size = new System.Drawing.Size(271, 22);
             this.msk_Identi.TabIndex = 49;
             this.msk_Identi.ValidatingType = typeof(System.DateTime);
+            this.msk_Identi.Leave += new System.EventHandler(this.msk_Identi_Leave);
             // 
             // lbl_telef2
             // 
@@ -171,6 +192,7 @@
             // txt_direccion
             // 
             this.txt_direccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txt_direccion.Enabled = false;
             this.txt_direccion.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_direccion.ForeColor = System.Drawing.Color.Black;
             this.txt_direccion.Location = new System.Drawing.Point(154, 369);
@@ -181,9 +203,26 @@
             this.txt_direccion.Size = new System.Drawing.Size(271, 45);
             this.txt_direccion.TabIndex = 12;
             // 
+            // txt_nombre
+            // 
+            this.txt_nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txt_nombre.Enabled = false;
+            this.txt_nombre.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_nombre.ForeColor = System.Drawing.Color.Black;
+            this.txt_nombre.Location = new System.Drawing.Point(154, 118);
+            this.txt_nombre.MaxLength = 25;
+            this.txt_nombre.Multiline = true;
+            this.txt_nombre.Name = "txt_nombre";
+            this.txt_nombre.Size = new System.Drawing.Size(271, 25);
+            this.txt_nombre.TabIndex = 6;
+            this.txt_nombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_nombre_KeyPress);
+            this.txt_nombre.Leave += new System.EventHandler(this.txt_nombre_Leave);
+            // 
             // txt_seg_ape
             // 
             this.txt_seg_ape.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txt_seg_ape.Enabled = false;
             this.txt_seg_ape.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_seg_ape.ForeColor = System.Drawing.Color.Black;
             this.txt_seg_ape.Location = new System.Drawing.Point(154, 202);
@@ -195,9 +234,22 @@
             this.txt_seg_ape.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_seg_ape.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_seg_ape_KeyPress);
             // 
+            // lbl_nombre
+            // 
+            this.lbl_nombre.AutoSize = true;
+            this.lbl_nombre.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_nombre.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lbl_nombre.Location = new System.Drawing.Point(78, 121);
+            this.lbl_nombre.Name = "lbl_nombre";
+            this.lbl_nombre.Size = new System.Drawing.Size(58, 13);
+            this.lbl_nombre.TabIndex = 6;
+            this.lbl_nombre.Text = "Nombre";
+            // 
             // txt_prim_ape
             // 
             this.txt_prim_ape.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txt_prim_ape.Enabled = false;
             this.txt_prim_ape.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_prim_ape.ForeColor = System.Drawing.Color.Black;
             this.txt_prim_ape.Location = new System.Drawing.Point(154, 164);
@@ -236,6 +288,7 @@
             // txt_correo
             // 
             this.txt_correo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txt_correo.Enabled = false;
             this.txt_correo.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_correo.ForeColor = System.Drawing.Color.Black;
             this.txt_correo.Location = new System.Drawing.Point(154, 332);
@@ -337,10 +390,46 @@
             this.gbx_datos_vehic.Margin = new System.Windows.Forms.Padding(2);
             this.gbx_datos_vehic.Name = "gbx_datos_vehic";
             this.gbx_datos_vehic.Padding = new System.Windows.Forms.Padding(2);
-            this.gbx_datos_vehic.Size = new System.Drawing.Size(434, 299);
+            this.gbx_datos_vehic.Size = new System.Drawing.Size(434, 325);
             this.gbx_datos_vehic.TabIndex = 20;
             this.gbx_datos_vehic.TabStop = false;
             this.gbx_datos_vehic.Text = "Datos del Vehículo";
+            // 
+            // msk_placa
+            // 
+            this.msk_placa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.msk_placa.Culture = new System.Globalization.CultureInfo("");
+            this.msk_placa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.msk_placa.Location = new System.Drawing.Point(170, 22);
+            this.msk_placa.Mask = "AAA-000";
+            this.msk_placa.Name = "msk_placa";
+            this.msk_placa.Size = new System.Drawing.Size(169, 22);
+            this.msk_placa.TabIndex = 52;
+            this.msk_placa.ValidatingType = typeof(System.DateTime);
+            // 
+            // nUD_Anio
+            // 
+            this.nUD_Anio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.nUD_Anio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nUD_Anio.Location = new System.Drawing.Point(58, 160);
+            this.nUD_Anio.Maximum = new decimal(new int[] {
+            1982,
+            0,
+            0,
+            0});
+            this.nUD_Anio.Minimum = new decimal(new int[] {
+            1982,
+            0,
+            0,
+            0});
+            this.nUD_Anio.Name = "nUD_Anio";
+            this.nUD_Anio.Size = new System.Drawing.Size(101, 22);
+            this.nUD_Anio.TabIndex = 39;
+            this.nUD_Anio.Value = new decimal(new int[] {
+            1982,
+            0,
+            0,
+            0});
             // 
             // AñadirMarca
             // 
@@ -544,101 +633,6 @@
             this.lbl_placa.TabIndex = 21;
             this.lbl_placa.Text = "Número de Placa";
             // 
-            // gbx_dat_tecnic
-            // 
-            this.gbx_dat_tecnic.Controls.Add(this.rbtn_coolFresh);
-            this.gbx_dat_tecnic.Controls.Add(this.rbtn_resFresh);
-            this.gbx_dat_tecnic.Controls.Add(this.rbtn_castroler);
-            this.gbx_dat_tecnic.Controls.Add(this.rbtn_penzoil);
-            this.gbx_dat_tecnic.Controls.Add(this.lbl_tip_aceite);
-            this.gbx_dat_tecnic.Controls.Add(this.lbl_tip_coolant);
-            this.gbx_dat_tecnic.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbx_dat_tecnic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.gbx_dat_tecnic.Location = new System.Drawing.Point(536, 358);
-            this.gbx_dat_tecnic.Margin = new System.Windows.Forms.Padding(2);
-            this.gbx_dat_tecnic.Name = "gbx_dat_tecnic";
-            this.gbx_dat_tecnic.Padding = new System.Windows.Forms.Padding(2);
-            this.gbx_dat_tecnic.Size = new System.Drawing.Size(320, 158);
-            this.gbx_dat_tecnic.TabIndex = 35;
-            this.gbx_dat_tecnic.TabStop = false;
-            this.gbx_dat_tecnic.Text = "Datos Técnicos";
-            // 
-            // rbtn_coolFresh
-            // 
-            this.rbtn_coolFresh.AutoSize = true;
-            this.rbtn_coolFresh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rbtn_coolFresh.Location = new System.Drawing.Point(212, 124);
-            this.rbtn_coolFresh.Margin = new System.Windows.Forms.Padding(2);
-            this.rbtn_coolFresh.Name = "rbtn_coolFresh";
-            this.rbtn_coolFresh.Size = new System.Drawing.Size(78, 17);
-            this.rbtn_coolFresh.TabIndex = 23;
-            this.rbtn_coolFresh.TabStop = true;
-            this.rbtn_coolFresh.Text = "Coolfresh";
-            this.rbtn_coolFresh.UseVisualStyleBackColor = true;
-            // 
-            // rbtn_resFresh
-            // 
-            this.rbtn_resFresh.AutoSize = true;
-            this.rbtn_resFresh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rbtn_resFresh.Location = new System.Drawing.Point(214, 73);
-            this.rbtn_resFresh.Margin = new System.Windows.Forms.Padding(2);
-            this.rbtn_resFresh.Name = "rbtn_resFresh";
-            this.rbtn_resFresh.Size = new System.Drawing.Size(78, 17);
-            this.rbtn_resFresh.TabIndex = 21;
-            this.rbtn_resFresh.TabStop = true;
-            this.rbtn_resFresh.Text = "ResFresh";
-            this.rbtn_resFresh.UseVisualStyleBackColor = true;
-            // 
-            // rbtn_castroler
-            // 
-            this.rbtn_castroler.AutoSize = true;
-            this.rbtn_castroler.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rbtn_castroler.Location = new System.Drawing.Point(50, 117);
-            this.rbtn_castroler.Margin = new System.Windows.Forms.Padding(2);
-            this.rbtn_castroler.Name = "rbtn_castroler";
-            this.rbtn_castroler.Size = new System.Drawing.Size(129, 30);
-            this.rbtn_castroler.TabIndex = 22;
-            this.rbtn_castroler.TabStop = true;
-            this.rbtn_castroler.Text = "Castroler 20W/50 \r\n5000k ";
-            this.rbtn_castroler.UseVisualStyleBackColor = true;
-            // 
-            // rbtn_penzoil
-            // 
-            this.rbtn_penzoil.AutoSize = true;
-            this.rbtn_penzoil.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rbtn_penzoil.Location = new System.Drawing.Point(50, 66);
-            this.rbtn_penzoil.Margin = new System.Windows.Forms.Padding(2);
-            this.rbtn_penzoil.Name = "rbtn_penzoil";
-            this.rbtn_penzoil.Size = new System.Drawing.Size(127, 30);
-            this.rbtn_penzoil.TabIndex = 20;
-            this.rbtn_penzoil.TabStop = true;
-            this.rbtn_penzoil.Text = "Penzoiler 20W/40\r\n 3000k ";
-            this.rbtn_penzoil.UseVisualStyleBackColor = true;
-            // 
-            // lbl_tip_aceite
-            // 
-            this.lbl_tip_aceite.AutoSize = true;
-            this.lbl_tip_aceite.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_tip_aceite.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_tip_aceite.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lbl_tip_aceite.Location = new System.Drawing.Point(60, 41);
-            this.lbl_tip_aceite.Name = "lbl_tip_aceite";
-            this.lbl_tip_aceite.Size = new System.Drawing.Size(100, 13);
-            this.lbl_tip_aceite.TabIndex = 36;
-            this.lbl_tip_aceite.Text = "Tipo de Aceite";
-            // 
-            // lbl_tip_coolant
-            // 
-            this.lbl_tip_coolant.AutoSize = true;
-            this.lbl_tip_coolant.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_tip_coolant.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_tip_coolant.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lbl_tip_coolant.Location = new System.Drawing.Point(210, 41);
-            this.lbl_tip_coolant.Name = "lbl_tip_coolant";
-            this.lbl_tip_coolant.Size = new System.Drawing.Size(108, 13);
-            this.lbl_tip_coolant.TabIndex = 39;
-            this.lbl_tip_coolant.Text = "Tipo de Coolant";
-            // 
             // btn_guardar
             // 
             this.btn_guardar.BackgroundImage = global::Lubricentro_Millas.Properties.Resources.done;
@@ -671,105 +665,15 @@
             // 
             this.erpErrores.ContainerControl = this;
             // 
-            // nUD_Anio
-            // 
-            this.nUD_Anio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.nUD_Anio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nUD_Anio.Location = new System.Drawing.Point(58, 160);
-            this.nUD_Anio.Maximum = new decimal(new int[] {
-            1982,
-            0,
-            0,
-            0});
-            this.nUD_Anio.Minimum = new decimal(new int[] {
-            1982,
-            0,
-            0,
-            0});
-            this.nUD_Anio.Name = "nUD_Anio";
-            this.nUD_Anio.Size = new System.Drawing.Size(101, 22);
-            this.nUD_Anio.TabIndex = 39;
-            this.nUD_Anio.Value = new decimal(new int[] {
-            1982,
-            0,
-            0,
-            0});
-            // 
-            // msk_placa
-            // 
-            this.msk_placa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.msk_placa.Culture = new System.Globalization.CultureInfo("");
-            this.msk_placa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.msk_placa.Location = new System.Drawing.Point(170, 22);
-            this.msk_placa.Mask = "AAA-000";
-            this.msk_placa.Name = "msk_placa";
-            this.msk_placa.Size = new System.Drawing.Size(169, 22);
-            this.msk_placa.TabIndex = 52;
-            this.msk_placa.ValidatingType = typeof(System.DateTime);
-            // 
-            // lbl_nombre
-            // 
-            this.lbl_nombre.AutoSize = true;
-            this.lbl_nombre.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_nombre.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_nombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lbl_nombre.Location = new System.Drawing.Point(78, 121);
-            this.lbl_nombre.Name = "lbl_nombre";
-            this.lbl_nombre.Size = new System.Drawing.Size(58, 13);
-            this.lbl_nombre.TabIndex = 6;
-            this.lbl_nombre.Text = "Nombre";
-            // 
-            // txt_nombre
-            // 
-            this.txt_nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txt_nombre.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_nombre.ForeColor = System.Drawing.Color.Black;
-            this.txt_nombre.Location = new System.Drawing.Point(154, 118);
-            this.txt_nombre.MaxLength = 25;
-            this.txt_nombre.Multiline = true;
-            this.txt_nombre.Name = "txt_nombre";
-            this.txt_nombre.Size = new System.Drawing.Size(271, 25);
-            this.txt_nombre.TabIndex = 6;
-            this.txt_nombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txt_nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_nombre_KeyPress);
-            this.txt_nombre.Leave += new System.EventHandler(this.txt_nombre_Leave);
-            // 
-            // txt_Telefono1
-            // 
-            this.txt_Telefono1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txt_Telefono1.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Telefono1.ForeColor = System.Drawing.Color.Black;
-            this.txt_Telefono1.Location = new System.Drawing.Point(154, 248);
-            this.txt_Telefono1.MaxLength = 25;
-            this.txt_Telefono1.Multiline = true;
-            this.txt_Telefono1.Name = "txt_Telefono1";
-            this.txt_Telefono1.Size = new System.Drawing.Size(271, 25);
-            this.txt_Telefono1.TabIndex = 52;
-            this.txt_Telefono1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txt_Telefono2
-            // 
-            this.txt_Telefono2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txt_Telefono2.Font = new System.Drawing.Font("Verdana", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Telefono2.ForeColor = System.Drawing.Color.Black;
-            this.txt_Telefono2.Location = new System.Drawing.Point(154, 287);
-            this.txt_Telefono2.MaxLength = 25;
-            this.txt_Telefono2.Multiline = true;
-            this.txt_Telefono2.Name = "txt_Telefono2";
-            this.txt_Telefono2.Size = new System.Drawing.Size(271, 25);
-            this.txt_Telefono2.TabIndex = 53;
-            this.txt_Telefono2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // frm_registrar_cliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(916, 788);
+            this.ClientSize = new System.Drawing.Size(916, 601);
             this.Controls.Add(this.btn_guardar);
             this.Controls.Add(this.btn_atras);
-            this.Controls.Add(this.gbx_dat_tecnic);
             this.Controls.Add(this.gbx_datos_vehic);
             this.Controls.Add(this.gbx_datos_person);
             this.Controls.Add(this.lbl_citas);
@@ -783,10 +687,8 @@
             this.gbx_datos_person.PerformLayout();
             this.gbx_datos_vehic.ResumeLayout(false);
             this.gbx_datos_vehic.PerformLayout();
-            this.gbx_dat_tecnic.ResumeLayout(false);
-            this.gbx_dat_tecnic.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.erpErrores)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUD_Anio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpErrores)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -812,13 +714,6 @@
         private System.Windows.Forms.ComboBox cbx_tipos;
         private System.Windows.Forms.Label lbl_tipo;
         private System.Windows.Forms.Label lbl_placa;
-        private System.Windows.Forms.GroupBox gbx_dat_tecnic;
-        private System.Windows.Forms.RadioButton rbtn_coolFresh;
-        private System.Windows.Forms.RadioButton rbtn_resFresh;
-        private System.Windows.Forms.RadioButton rbtn_castroler;
-        private System.Windows.Forms.RadioButton rbtn_penzoil;
-        private System.Windows.Forms.Label lbl_tip_aceite;
-        private System.Windows.Forms.Label lbl_tip_coolant;
         private System.Windows.Forms.TextBox txt_comentario;
         private System.Windows.Forms.ComboBox cbx_combus;
         private System.Windows.Forms.Label lbl_motor;

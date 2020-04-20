@@ -139,8 +139,8 @@ namespace Lubricentro_Millas.Pantallas.Principal
         private void tstItem_registra_cliente_Click(object sender, EventArgs e)
         {
             Catalogos.Editar.Usuario.frm_registrar_cliente frm_Cliente = new Catalogos.Editar.Usuario.frm_registrar_cliente();
-            frm_Cliente.Obj_Clientes_DAL = new cls_Clientes_DAL();
-            frm_Cliente.Obj_Clientes_DAL.iCod_EmpleCreador = Obj_DAL.iUsuario;
+            frm_Cliente.Obj_Cliente_DAL = new cls_Clientes_DAL();
+            frm_Cliente.Obj_Cliente_DAL.iCod_EmpleCreador = Obj_DAL.iUsuario;
             frm_Cliente.ShowDialog();
 
         }

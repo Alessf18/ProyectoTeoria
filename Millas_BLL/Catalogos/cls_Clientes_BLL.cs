@@ -70,47 +70,19 @@ namespace Millas_BLL.Catalogos
             cls_Generales_BLL Obj_Generales_BLL = new cls_Generales_BLL();
 
             Obj_Generales_BLL.CrearDTParametros(ref Obj_BD_DAL);
-            /*
-              {
-                                    case "1":
-                                        DB_TYPE = SqlDbType.NVarChar;
-                                        break;
-                                    case "2":
-                                        DB_TYPE = SqlDbType.Int;
-                                        break;
-                                    case "3":
-                                        DB_TYPE = SqlDbType.Char;
-                                        break;
-                                    case "4":
-                                        DB_TYPE = SqlDbType.Float;
-                                        break;
-                                    case "5":
-                                        DB_TYPE = SqlDbType.Time;
-                                        break;
-                                    case "6":
-                                        DB_TYPE = SqlDbType.DateTime;
-                                        break;
-                                    case "7":
-                                        DB_TYPE = SqlDbType.Bit;
-                                        break;
-                                    default:
-                                        DB_TYPE = SqlDbType.VarChar;
-                                        break;
-                                }
-             
-             */
+           
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Nombre", "1", obj_Clientes_DAL.sNombres);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Apellidos", "1", obj_Clientes_DAL.sApellidos);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@id_TiposIdentificaciones", "2", obj_Clientes_DAL.ICod_id_Identificaciones);
-            Obj_BD_DAL.Dt_Parametros.Rows.Add("@Identificacion", "2", obj_Clientes_DAL.iCedulas);
+            Obj_BD_DAL.Dt_Parametros.Rows.Add("@Identificacion", "1", obj_Clientes_DAL.Siden);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Correo", "1", obj_Clientes_DAL.sCorreo);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@TelefonoCelular", "2", obj_Clientes_DAL.iNumeroCel);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@TelefonoFijo", "2", obj_Clientes_DAL.iNumeroTele);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Direccion", "1", obj_Clientes_DAL.sDireccion);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Id_Crea_Empleados", "2", obj_Clientes_DAL.iCod_EmpleCreador);
-            Obj_BD_DAL.Dt_Parametros.Rows.Add("@@FechaCreado", "6", obj_Clientes_DAL.FechaCreado);
+            Obj_BD_DAL.Dt_Parametros.Rows.Add("@FechaCreado", "6", obj_Clientes_DAL.FechaCreado);
 
-            Obj_BD_DAL.sParametro = ConfigurationManager.AppSettings["insertarmarcavehiculos"].ToString();
+            Obj_BD_DAL.sParametro = ConfigurationManager.AppSettings["insertarclientes"].ToString();
 
             Obj_BD_BLL.Excute_Scalar(ref Obj_BD_DAL);
 
@@ -276,6 +248,42 @@ namespace Millas_BLL.Catalogos
             {
                 Obj_Clientes_DAL.dData = null;
                 Obj_Clientes_DAL.sMgsError = Obj_BD_DAL.sMsError;
+            }
+        }
+        #endregion
+        #region Verificar cliente
+        public bool clienteRepetido(ref cls_Clientes_DAL obj_Clientes_DAL) {
+            cls_BD_BLL Obj_BD_BLL = new cls_BD_BLL();
+            cls_BD_DAL Obj_BD_DAL = new cls_BD_DAL();
+
+            cls_Generales_BLL Obj_Generales_BLL = new cls_Generales_BLL();
+
+            Obj_Generales_BLL.CrearDTParametros(ref Obj_BD_DAL);
+
+            Obj_BD_DAL.Dt_Parametros.Rows.Add("@numCed", "1", obj_Clientes_DAL.Siden);
+           
+
+            Obj_BD_DAL.sParametro = ConfigurationManager.AppSettings["verificarExistencia"].ToString();
+
+            Obj_BD_BLL.Excute_Scalar(ref Obj_BD_DAL);
+
+            if (Obj_BD_DAL.sMsError == string.Empty)
+            {
+                if (Obj_BD_DAL.sValorScalar != "")
+                {
+                    obj_Clientes_DAL.sMgsError = "Ya existe un usuario registrado con este numero de cédula";
+                    return true;
+                }
+                else {
+                    obj_Clientes_DAL.sMgsError = Obj_BD_DAL.sMsError;
+                    return false;
+                }
+            }
+            else
+            {
+                obj_Clientes_DAL.sMgsError = Obj_BD_DAL.sMsError;
+                obj_Clientes_DAL.iCod_Id = -1;
+                return true;
             }
         }
         #endregion

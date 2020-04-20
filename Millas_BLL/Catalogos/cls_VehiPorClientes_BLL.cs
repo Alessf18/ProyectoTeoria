@@ -74,13 +74,28 @@ namespace Millas_BLL.Catalogos
 
             Obj_Generales_BLL.CrearDTParametros(ref Obj_BD_DAL);
 
-            Obj_BD_DAL.Dt_Parametros.Rows.Add("@Id_Clentes", "2", obj_VehiPorClientes_DAL.iId_Cliente);
+            /*
+             @Id_Clientes int,
+           @Placa varchar(20),
+           @Id_TiposVehiculos int,
+           @Id_Combustible int,
+           @Id_MarcasVehiculos int,
+           @Id_ModelosVehiculos int,
+           @Anio int,
+           @Comentario varchar(50
+             
+             
+             */
+            Obj_BD_DAL.Dt_Parametros.Rows.Add("@Id_Clientes", "2", obj_VehiPorClientes_DAL.iId_Cliente);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Placa", "1", obj_VehiPorClientes_DAL.sPlaca);
-            Obj_BD_DAL.Dt_Parametros.Rows.Add("@Anio", "2", obj_VehiPorClientes_DAL.iAnio);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Id_TiposVehiculos", "2", obj_VehiPorClientes_DAL.iCod_TipoVehiculos);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Id_Combustible", "2", obj_VehiPorClientes_DAL.iCod_Combustible);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Id_MarcasVehiculos", "2", obj_VehiPorClientes_DAL.iCod_MarcasVehiculos);
             Obj_BD_DAL.Dt_Parametros.Rows.Add("@Id_ModelosVehiculos", "2", obj_VehiPorClientes_DAL.iCod_ModelosVehiculos);
+            Obj_BD_DAL.Dt_Parametros.Rows.Add("@Anio", "2", obj_VehiPorClientes_DAL.iAnio);
+            Obj_BD_DAL.Dt_Parametros.Rows.Add("@Comentario", "1", obj_VehiPorClientes_DAL.sComentario);
+
+
 
             Obj_BD_DAL.sParametro = ConfigurationManager.AppSettings["insertarvehiculosporclientes"].ToString();
 

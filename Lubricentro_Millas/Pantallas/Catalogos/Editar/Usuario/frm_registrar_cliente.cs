@@ -19,11 +19,12 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
     public partial class frm_registrar_cliente : Form
     {
         #region Variables Globales
-        public cls_Clientes_DAL Obj_Cliente_DAL=new cls_Clientes_DAL();
+        public cls_Clientes_DAL Obj_Cliente_DAL= new cls_Clientes_DAL();
+        private bool estaCargando = true;
         #endregion
        
 
-        public cls_Clientes_DAL Obj_Clientes_DAL;
+        
         public frm_registrar_cliente()
         {
             InitializeComponent();
@@ -31,42 +32,21 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
 
         private void btn_guardar_Click(object sender, EventArgs e)
         {
-            /*
             
-                @Nombre varchar(50),
-           @Apellidos varchar(50),
-           @id_TiposIdentificaciones int,
-           @Identificacion varchar(20),
-           @Correo varchar(50),
-           @TelefonoCelular int,
-           @TelefonoFijo int,
-           @Direccion VARCHAR(250),
-           @Id_Crea_Empleados int,
-           @FechaCreado datetime)
-             */
+
             cls_Clientes_BLL Obj_Cliente_BLL = new cls_Clientes_BLL();
            
-            Obj_Clientes_DAL.sNombres = txt_nombre.Text.Trim();
-            Obj_Clientes_DAL.sApellidos = txt_prim_ape.Text.Trim() + " " + txt_seg_ape.Text.Trim();
-            Obj_Clientes_DAL.Siden = msk_Identi.Text;
-            Obj_Clientes_DAL.iNumeroTele = Convert.ToInt32(txt_Telefono1.Text.Trim());
-            Obj_Clientes_DAL.iNumeroCel =Convert.ToInt32( txt_Telefono2.Text.Trim());
-            Obj_Clientes_DAL.sCorreo = txt_correo.Text.Trim();
-            Obj_Clientes_DAL.sDireccion = txt_direccion.Text.Trim();
-            Obj_Clientes_DAL.FechaCreado = DateTime.Now;
+            Obj_Cliente_DAL.sNombres = txt_nombre.Text.Trim();
+            Obj_Cliente_DAL.sApellidos = txt_prim_ape.Text.Trim() + " " + txt_seg_ape.Text.Trim();
+            Obj_Cliente_DAL.Siden = msk_Identi.Text;
+            Obj_Cliente_DAL.iNumeroTele = Convert.ToInt32(txt_Telefono1.Text.Trim());
+            Obj_Cliente_DAL.iNumeroCel =Convert.ToInt32( txt_Telefono2.Text.Trim());
+            Obj_Cliente_DAL.sCorreo = txt_correo.Text.Trim();
+            Obj_Cliente_DAL.sDireccion = txt_direccion.Text.Trim();
+            Obj_Cliente_DAL.FechaCreado = DateTime.Now;
             Obj_Cliente_BLL.Insert_Clientes(ref Obj_Cliente_DAL);
             if (Obj_Cliente_DAL.iCod_Id != -1) {
-                /*
-             @Id_Clientes int,
-            @Placa varchar(20),
-             @Id_TiposVehiculos int,
-            @Id_Combustible int,
-             @Id_MarcasVehiculos int,
-            @Id_ModelosVehiculos int,
-            @Anio int,
-            @Comentario varchar(50)    
-             
-             */
+              
                 cls_VehiPorClientes_BLL Obj_Vh_BLL = new cls_VehiPorClientes_BLL();
                 cls_VehiPorClientes_DAL Obj_Vh_DAL = new cls_VehiPorClientes_DAL();
                 Obj_Vh_DAL.iId_Cliente = Obj_Cliente_DAL.iCod_Id;
@@ -103,11 +83,11 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
 
         private void frm_registrar_cliente_Load(object sender, EventArgs e)
         {
-            cls_Clientes_DAL obj_Cli = new cls_Clientes_DAL();
-            obj_Cli.cBanOpc = 'I';
-            Obj_Clientes_DAL = obj_Cli;
+            Obj_Cliente_DAL.cBanOpc = 'I';
             nUD_Anio.Maximum = DateTime.Now.Year;
+            rbtn_cedula.Checked = false;
             CargarCombo();
+            msk_Identi.Focus();
        
         }
 
@@ -223,6 +203,39 @@ namespace Lubricentro_Millas.Pantallas.Catalogos.Editar.Usuario
             else
             {
                 e.Handled = false;
+            }
+        }
+
+        private void msk_Identi_Leave(object sender, EventArgs e)
+        {
+            if (msk_Identi.Text.Trim() == "- -" &&estaCargando==false)
+            {
+                erpErrores.SetError(msk_Identi, "este campo es obligatorio");
+                msk_Identi.Focus();
+            }
+            else if(estaCargando==false) {
+                cls_Clientes_BLL Obj_Bll = new cls_Clientes_BLL();
+                cls_Clientes_DAL Obj_DAL = new cls_Clientes_DAL();
+                Obj_Cliente_DAL.Siden = msk_Identi.Text.Trim();
+                if (Obj_Bll.clienteRepetido(ref Obj_Cliente_DAL))
+                {
+                    MessageBox.Show(Obj_Cliente_DAL.sMgsError, "Cedula repetida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    msk_Identi.ResetText();
+                    msk_Identi.Focus();
+                }
+                else {
+                    txt_nombre.Enabled = true;
+                    txt_prim_ape.Enabled = true;
+                    txt_seg_ape.Enabled = true;
+                    txt_Telefono1.Enabled = true;
+                    txt_Telefono2.Enabled = true;
+                    txt_correo.Enabled = true;
+                    txt_direccion.Enabled = true;
+                    txt_nombre.Focus();
+                }
+            }
+            else{
+                estaCargando = false;
             }
         }
     }
